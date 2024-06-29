@@ -5,17 +5,33 @@ import app.revanced.util.doRecursively
 import app.revanced.util.insertNode
 import org.w3c.dom.Element
 
-@Suppress("MemberVisibilityCanBePrivate")
+@Suppress("DEPRECATION", "MemberVisibilityCanBePrivate")
 object ResourceUtils {
 
     const val TARGET_PREFERENCE_PATH = "res/xml/revanced_prefs.xml"
 
     const val YOUTUBE_SETTINGS_PATH = "res/xml/settings_fragment.xml"
 
-    var targetPackage = "com.google.android.youtube"
+    var youtubePackageName = "com.google.android.youtube"
 
-    fun setMicroG(newPackage: String) {
-        targetPackage = newPackage
+    private var iconType = "default"
+    fun getIconType() = iconType
+
+    fun ResourceContext.updatePackageName(
+        fromPackageName: String,
+        toPackageName: String
+    ) {
+        youtubePackageName = toPackageName
+
+        val prefs = this["res/xml/settings_fragment.xml"]
+
+        prefs.writeText(
+            prefs.readText()
+                .replace(
+                    "android:targetPackage=\"$fromPackageName",
+                    "android:targetPackage=\"$toPackageName"
+                )
+        )
     }
 
     fun ResourceContext.addEntryValues(
@@ -58,11 +74,8 @@ object ResourceUtils {
         updatePatchStatusSettings(patchTitle, "@string/revanced_patches_included")
     }
 
-    fun ResourceContext.updatePatchStatusHeader(headerName: String) {
-        updatePatchStatusSettings("Custom branding heading", headerName)
-    }
-
     fun ResourceContext.updatePatchStatusIcon(iconName: String) {
+        iconType = iconName
         updatePatchStatusSettings("Icon", "@string/revanced_icon_$iconName")
     }
 
@@ -91,41 +104,49 @@ object ResourceUtils {
         }
     }
 
-    fun ResourceContext.addReVancedPreference(key: String) {
+    fun ResourceContext.addPreferenceFragment(key: String, insertKey: String) {
         val targetClass =
             "com.google.android.apps.youtube.app.settings.videoquality.VideoQualitySettingsActivity"
 
         this.xmlEditor[YOUTUBE_SETTINGS_PATH].use { editor ->
             with(editor.file) {
-                doRecursively loop@{
-                    if (it !is Element) return@loop
-                    it.getAttributeNode("android:key")?.let { attribute ->
-                        if (attribute.textContent == "@string/about_key" && it.getAttributeNode("app:iconSpaceReserved").textContent == "false") {
-                            it.insertNode("Preference", it) {
-                                setAttribute("android:key", "revanced_" + key + "_key")
-                                setAttribute("android:title", "@string/revanced_" + key + "_title")
+                val processedKeys = mutableSetOf<String>() // To track processed keys
+
+                doRecursively loop@{ node ->
+                    if (node !is Element) return@loop // Skip if not an element
+
+                    val attributeNode = node.getAttributeNode("android:key")
+                        ?: return@loop // Skip if no key attribute
+                    val currentKey = attributeNode.textContent
+
+                    // Check if the current key has already been processed
+                    if (processedKeys.contains(currentKey)) {
+                        return@loop // Skip if already processed
+                    } else {
+                        processedKeys.add(currentKey) // Add the current key to processedKeys
+                    }
+
+                    when (currentKey) {
+                        insertKey -> {
+                            node.insertNode("Preference", node) {
+                                setAttribute("android:key", "${key}_key")
+                                setAttribute("android:title", "@string/${key}_title")
                                 this.appendChild(
                                     ownerDocument.createElement("intent").also { intentNode ->
                                         intentNode.setAttribute(
                                             "android:targetPackage",
-                                            targetPackage
+                                            youtubePackageName
                                         )
-                                        intentNode.setAttribute("android:data", key)
+                                        intentNode.setAttribute("android:data", key + "_intent")
                                         intentNode.setAttribute("android:targetClass", targetClass)
-                                    })
+                                    }
+                                )
                             }
-                            it.getAttributeNode("app:iconSpaceReserved").textContent = "true"
-                            return@loop
+                            node.setAttribute("app:iconSpaceReserved", "true")
                         }
-                    }
-                }
 
-                doRecursively loop@{
-                    if (it !is Element) return@loop
-
-                    it.getAttributeNode("app:iconSpaceReserved")?.let { attribute ->
-                        if (attribute.textContent == "true") {
-                            attribute.textContent = "false"
+                        "true" -> {
+                            attributeNode.textContent = "false"
                         }
                     }
                 }

@@ -5,7 +5,7 @@ import app.revanced.patcher.fingerprint.MethodFingerprint
 import com.android.tools.smali.dexlib2.AccessFlags
 import com.android.tools.smali.dexlib2.Opcode
 
-object ScreenNavigatorFingerprint : MethodFingerprint(
+internal object ScreenNavigatorFingerprint : MethodFingerprint(
     returnType = "V",
     accessFlags = AccessFlags.PUBLIC or AccessFlags.FINAL,
     opcodes = listOf(
@@ -14,6 +14,6 @@ object ScreenNavigatorFingerprint : MethodFingerprint(
         Opcode.CONST_STRING,
         Opcode.INVOKE_STATIC
     ),
-    strings = listOf("uri", "android.intent.action.VIEW", "com.reddit"),
+    strings = listOf("activity", "uri"),
     customFingerprint = { _, classDef -> classDef.sourceFile == "RedditScreenNavigator.kt" }
 )

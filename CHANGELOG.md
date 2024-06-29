@@ -1,510 +1,512 @@
-# [2.223.0](https://github.com/anddea/revanced-patches/compare/v2.222.0...v2.223.0) (2024-04-01)
+# [2.227.0-dev.2](https://github.com/anddea/revanced-patches/compare/v2.227.0-dev.1...v2.227.0-dev.2) (2024-06-29)
+
+
+### Features
+
+* **YouTube - Shorts:** Add Original Outline Icons ([#663](https://github.com/anddea/revanced-patches/issues/663)) ([35a65f5](https://github.com/anddea/revanced-patches/commit/35a65f5e873bebc8ddf151cb194fe0d43f53022b))
+* **YouTube - Translations:** Update `Chinese Traditional` ([#666](https://github.com/anddea/revanced-patches/issues/666)) ([4f383eb](https://github.com/anddea/revanced-patches/commit/4f383eb45aa0610b1b27f039a718288ee193564a))
+
+# [2.227.0-dev.1](https://github.com/anddea/revanced-patches/compare/v2.226.0...v2.227.0-dev.1) (2024-06-26)
+
+
+### Features
+
+* **YouTube - Custom branding icon:** Custom header support for `Revancify Yellow` ([#656](https://github.com/anddea/revanced-patches/issues/656)) ([72dfa7e](https://github.com/anddea/revanced-patches/commit/72dfa7e2d00e65d027eb0ff423764f79d04f1018))
+
+# [2.226.0](https://github.com/anddea/revanced-patches/compare/v2.225.0...v2.226.0) (2024-06-26)
 
 
 ### Bug Fixes
 
-* **YouTube - Change player flyout panel toggles:** Fix for supported versions ([a9fe961](https://github.com/anddea/revanced-patches/commit/a9fe961d9c8a9bce66c2c42e37a55a592411b516))
-* **YouTube - Custom branding icon:** Remove redundant style ([3fe0040](https://github.com/anddea/revanced-patches/commit/3fe00409cc2c141a03c5150f204fdd00be3497c6))
-* **YouTube - Hide player buttons background:** Update missing supported versions ([57af802](https://github.com/anddea/revanced-patches/commit/57af802e113269bb931cc9b04b651cfd257cec70))
-* **YouTube - Overlay buttons:** Increase padding of chapter and timestamp ([e3db3e3](https://github.com/anddea/revanced-patches/commit/e3db3e387ce5e48f915fceb0e2a8db983c41b5a3))
-* **YouTube - Overlay buttons:** Update time-ordered button ([e7a8e30](https://github.com/anddea/revanced-patches/commit/e7a8e302fc42dc60ecb2cf02ac78b1ecae5cb90e))
-* **YouTube - Shorts overlay buttons:** Resize icons ([e348565](https://github.com/anddea/revanced-patches/commit/e348565caaa352e4004910d87e43fb612907ae21))
-* **YouTube - Swipe controls:** Fix some strings ([074e3e4](https://github.com/anddea/revanced-patches/commit/074e3e419731c075ca9bffa73f43a256316c3684))
-* **YouTube - Theme:** Remove redundant code and seekbar color ([46b345c](https://github.com/anddea/revanced-patches/commit/46b345c1e2582507358d9eb477e6a7036e402ee3))
-* **YouTube - Translations:** Fix typo in `Spanish` ([#174](https://github.com/anddea/revanced-patches/issues/174)) ([8d1507c](https://github.com/anddea/revanced-patches/commit/8d1507c72c5b22419dabecac21a2072a6dda9ffa))
-* **YouTube - Translations:** Update `Japanese` ([#214](https://github.com/anddea/revanced-patches/issues/214)) ([bb5318e](https://github.com/anddea/revanced-patches/commit/bb5318e7807632a0136fd54147cedd358b132e96))
-* **YouTube - Translations:** Update translations info ([e3571d3](https://github.com/anddea/revanced-patches/commit/e3571d3865082e42f276720a42a13f2fb8e45fe8))
-* **YouTube - Translations:** Update translations info ([8de81ba](https://github.com/anddea/revanced-patches/commit/8de81ba9ae620a74a5db87fd305ff4c96e0f51c0))
-* **YouTube - Translations:** Update translations info ([de428b0](https://github.com/anddea/revanced-patches/commit/de428b00db7ca7bf1cdfbedd84e5c18c9a59e40c))
-* **YouTube - Translations:** Update translations info ([8684f37](https://github.com/anddea/revanced-patches/commit/8684f37b45742859f8bedce1a511eb0977c12f48))
-* **YouTube - Translations:** Update translations info ([e8f0731](https://github.com/anddea/revanced-patches/commit/e8f0731832658bd7b12a0909e96dece3c498f27b))
-* **YouTube - Translations:** Update translations info ([36b1ed4](https://github.com/anddea/revanced-patches/commit/36b1ed4333cd2ed623eaa1666b7138d37048a9e3))
-* **YouTube - Translations:** Update translations info ([12982f4](https://github.com/anddea/revanced-patches/commit/12982f423660b3e9289d04bb0666249b737d2ee9))
-* **YouTube - Translations:** Update translations info ([25ce0a9](https://github.com/anddea/revanced-patches/commit/25ce0a988e2601bf4b61cbd5b1c85bd7f6951ddb))
-* **YouTube - Translations:** Update translations info ([302ffd6](https://github.com/anddea/revanced-patches/commit/302ffd6b9d0f2b4b5f359dff5fcb769db290413f))
-* **YouTube - Translations:** Update translations info ([9babfd9](https://github.com/anddea/revanced-patches/commit/9babfd978e650742a52e5efa4d4189656ff5fdd5))
-* **YouTube - Translations:** Update translations info ([56ad720](https://github.com/anddea/revanced-patches/commit/56ad7205e68ea875a0bef99312d99d1a8d4a2834))
-* **YouTube - Translations:** Update translations info ([17a514e](https://github.com/anddea/revanced-patches/commit/17a514ea90d921a269e957ab3cca1da5b742c26f))
-* **YouTube - Translations:** Update translations info ([c30c031](https://github.com/anddea/revanced-patches/commit/c30c031efea8cf27fae23ad77c45fc4c278f7a94))
-* **YouTube - Tuck away preferences:** Possible fix to hide "Purchases and memberships" ([0b8ec7c](https://github.com/anddea/revanced-patches/commit/0b8ec7ca82688cab3fd3d44930353d95dcb5fe55))
-* **YouTube - Visual settings icons:** Add missing dependency ([b3b3545](https://github.com/anddea/revanced-patches/commit/b3b35457fc91eed32bb5a9983e94d189e72d5c7b))
-* **YouTube/YT Music - Debugging:** Disable by default ([241b6dd](https://github.com/anddea/revanced-patches/commit/241b6dd8c53ee0bbbceaea363851933d11441be6))
-* **YouTube:** Adjusting patches to apply correctly to earlier versions. ([#94](https://github.com/anddea/revanced-patches/issues/94)) ([cb02ba7](https://github.com/anddea/revanced-patches/commit/cb02ba71f5af061a17183540537966e9ccef9332))
-* **YT Music - Custom branding icon:** Fix some icons and add Welcome screen logo ([9abf946](https://github.com/anddea/revanced-patches/commit/9abf94624e853e091dd82c9b0bbb71380b5e90ad))
-* **YT Music - Enable old style miniplayer:** Update description ([dee3a45](https://github.com/anddea/revanced-patches/commit/dee3a453b173fab46fb3c1c98026309e5e232bea))
-* **YT Music:** Support latest versions ([4575e86](https://github.com/anddea/revanced-patches/commit/4575e86de5405417dead2cc2ab7cc509144fafaf))
+* **Custom branding icon:** Failed because of missing resources ([5e0723e](https://github.com/anddea/revanced-patches/commit/5e0723e52856a93f06f798b1fc18e18bbfa56490))
+* **GmsCore support:** Spoof package name ([9c4e70c](https://github.com/anddea/revanced-patches/commit/9c4e70cf896e1ca9efc6c9b3766eca7c6869a413))
+* **Hide ads:** app crashes in the old client ([2a61d08](https://github.com/anddea/revanced-patches/commit/2a61d08cb59d76115d0f0ddd7deecc8e02a245dc))
+* **Reddit - Settings:** Patch option `RVX settings menu name` does not apply to header in ReVanced Extended settings ([4827a0f](https://github.com/anddea/revanced-patches/commit/4827a0fa0b1ee8f576fa1020f9a0378b79cdf9cc))
+* **Settings:** Failed with custom RVXSettingsMenuName ([c0d3ed0](https://github.com/anddea/revanced-patches/commit/c0d3ed0b377f018913d217962088e935084c167c))
+* **YouTube - Custom branding icon:** Add `Revancify Yellow` to patch options ([aea7060](https://github.com/anddea/revanced-patches/commit/aea70604ae326ec86ddec5b37d03a06673292545))
+* **YouTube - Miniplayer:** `Hide expand and close buttons` setting is not disabled in `Modern 1` on YouTube 19.20.35+ ([b7c330a](https://github.com/anddea/revanced-patches/commit/b7c330ace90f9761cd06322eb0840b593d1e26d1))
+* **YouTube - Settings:** `CairoSettings` is applied due to A/B testing ([bad0f92](https://github.com/anddea/revanced-patches/commit/bad0f929853890eaac7a21a4faaad5cf43077f74))
+* **YouTube - Spoof client:** Player gestures not working when spoofing with `Android VR` client ([0cdc4f3](https://github.com/anddea/revanced-patches/commit/0cdc4f33c98cc16f5a302f2ca46a93434165bfd3))
+* **YouTube - Spoof client:** Restore playback speed menu when spoofing to an iOS, Android TV, Android Testsuite client ([06ffb15](https://github.com/anddea/revanced-patches/commit/06ffb15d8bf5b91fa98910d975d3ad887e609789))
+* **YouTube - Spoof client:** Seekbar thumbnail not shown in `Android Testsuite` client ([74d50b1](https://github.com/anddea/revanced-patches/commit/74d50b1b5ad5860a4f341039e953a7c38b457afb))
+* **YouTube - Translations:** Removed some languages from UI ([93279da](https://github.com/anddea/revanced-patches/commit/93279da02684887dbb1f25668f64f49f2ca55391))
+* **YouTube - Visual preferences icons:** Typo in QUIC ([409e283](https://github.com/anddea/revanced-patches/commit/409e2831b3c1ab9db1023e5f6257d4d4d327a592))
+* **YouTube Music - Visual preferences icons:** Add missing custom branding icons ([1071471](https://github.com/anddea/revanced-patches/commit/10714717b69710f7c5eb364cb7d0a604c00dae55))
+* **YouTube/Overlay buttons:** in devices that do not use `xxhdpi`, some buttons are not replaced correctly ([030b2f6](https://github.com/anddea/revanced-patches/commit/030b2f6fa43ce280266ce45a2f2272aa4d1c1eda))
+* **YouTube:** `Hide animated button background` patch doesn't work ([37fac01](https://github.com/anddea/revanced-patches/commit/37fac01c5b173fbbdfa9c44043b086836cbb36cd))
 
 
 ### Features
 
-* **MicroG Support:** Switch to GMSCore ([f1f522f](https://github.com/anddea/revanced-patches/commit/f1f522f6f9c0da44ec92bce3d7fdd4fbe74c248f))
-* **YouTube - Custom branding icon:** Add splash animation for MMT ([bb97a79](https://github.com/anddea/revanced-patches/commit/bb97a7986bfb29a8c1032b3bbb338cf0f59c14ea))
-* **YouTube - Hide layout components:** Add `Subscriptions` tab and `Comments` to `Keyword filter` ([bbc3217](https://github.com/anddea/revanced-patches/commit/bbc32170b6bf2d94f43ad4782fe27960fa4caf53))
-* **YouTube - Hide player buttons baclground:** Add a switch setting `Hide player buttons background` ([5271610](https://github.com/anddea/revanced-patches/commit/5271610584128963d13556a61f6db88d8f10e117))
-* **YouTube - Layout component filter:** Add locale support for a video filter based on view count ([689193f](https://github.com/anddea/revanced-patches/commit/689193f6d76255a7e71916a715116409d4858335))
-* **YouTube - Layout component filter:** Adjust filter for more patterns ([1163ff7](https://github.com/anddea/revanced-patches/commit/1163ff75ef9013be6b135ea4fc523cd2441dc7da))
-* **YouTube - Layout component filter:** Hide videos based on the number of views ([23fa805](https://github.com/anddea/revanced-patches/commit/23fa805416ccaed1934d05105d89bec74341d09c))
-* **YouTube - Settings:** Add new settings for Shorts and Player buttons background ([f0a2e69](https://github.com/anddea/revanced-patches/commit/f0a2e6928887baea4e9722d13d6dc6313b6f9d96))
-* **YouTube - Shorts overlay buttons:** Add TikTok buttons for older versions ([fd296f3](https://github.com/anddea/revanced-patches/commit/fd296f3017e32720cd901dbd9d578504d49e1909))
-* **YouTube - Shorts overlay buttons:** Update icons ([62f3785](https://github.com/anddea/revanced-patches/commit/62f37858e550831cd1698be519f02c894a9f8736))
-* **YouTube - Speed overlay:** Change the speed overlay icon and fix patch for applying to earlier versions ([#92](https://github.com/anddea/revanced-patches/issues/92)) ([d547cda](https://github.com/anddea/revanced-patches/commit/d547cda236fc6d97387e5e6422b3a3a787046a2c))
-* **YouTube - Translations:** Update `Brazillian Portuguese` ([#85](https://github.com/anddea/revanced-patches/issues/85)) ([12ee1e1](https://github.com/anddea/revanced-patches/commit/12ee1e18f03351e551f68c5e0099f7f73208a85e))
-* **YouTube - Translations:** Update `Chinese Simplified` ([#196](https://github.com/anddea/revanced-patches/issues/196)) ([2711e2a](https://github.com/anddea/revanced-patches/commit/2711e2ab6626bc0bea2638bb411af62e7512660b))
-* **YouTube - Translations:** Update `Chinese Traditional` ([#205](https://github.com/anddea/revanced-patches/issues/205)) ([f83954f](https://github.com/anddea/revanced-patches/commit/f83954f4d6ddf3c0d9fd71f3a8ff024bc5164237))
-* **YouTube - Translations:** Update `Italian` ([#102](https://github.com/anddea/revanced-patches/issues/102)) ([580883c](https://github.com/anddea/revanced-patches/commit/580883cec8f46e3e0be25995abe575d69739fb2a))
-* **YouTube - Translations:** Update `Italian` ([#115](https://github.com/anddea/revanced-patches/issues/115)) ([31218ed](https://github.com/anddea/revanced-patches/commit/31218ed20367504808ceb061d908f88696cfeafb))
-* **YouTube - Translations:** Update `Italian` ([#119](https://github.com/anddea/revanced-patches/issues/119)) ([148a03e](https://github.com/anddea/revanced-patches/commit/148a03e8d867484450fd141467673c3808ec0e12))
-* **YouTube - Translations:** Update `Italian` ([#123](https://github.com/anddea/revanced-patches/issues/123)) ([73fae53](https://github.com/anddea/revanced-patches/commit/73fae530cd31c630844a0ad2a079756604ef777d))
-* **YouTube - Translations:** Update `Italian` ([#157](https://github.com/anddea/revanced-patches/issues/157)) ([4648253](https://github.com/anddea/revanced-patches/commit/4648253b54357835ed3f2ee657c22abee037c7ea))
-* **YouTube - Translations:** Update `Italian` ([#161](https://github.com/anddea/revanced-patches/issues/161)) ([a356939](https://github.com/anddea/revanced-patches/commit/a35693951910a7a656a28c87f5b6ab37ceaaca83))
-* **YouTube - Translations:** Update `Italian` ([#163](https://github.com/anddea/revanced-patches/issues/163)) ([7cefd8e](https://github.com/anddea/revanced-patches/commit/7cefd8ec5b0348e4c3ddcdd1dadb7492afa8baed))
-* **YouTube - Translations:** Update `Italian` ([#178](https://github.com/anddea/revanced-patches/issues/178)) ([73da0b9](https://github.com/anddea/revanced-patches/commit/73da0b927d1ced92b7bf070b1fbecc602d3c485b))
-* **YouTube - Translations:** Update `Italian` ([#198](https://github.com/anddea/revanced-patches/issues/198)) ([13105fa](https://github.com/anddea/revanced-patches/commit/13105fafed92e561d4896a59f9de402d7a89586f))
-* **YouTube - Translations:** Update `Italian` ([#219](https://github.com/anddea/revanced-patches/issues/219)) ([f27cf62](https://github.com/anddea/revanced-patches/commit/f27cf62c8172b222f280ec313e03a8b057911777))
-* **YouTube - Translations:** Update `Japanese` ([#107](https://github.com/anddea/revanced-patches/issues/107)) ([cc87b2d](https://github.com/anddea/revanced-patches/commit/cc87b2db4053adfa583ee75ce88f642e2804fc8c))
-* **YouTube - Translations:** Update `Japanese` ([#113](https://github.com/anddea/revanced-patches/issues/113)) ([8f2be3a](https://github.com/anddea/revanced-patches/commit/8f2be3af048df72146d81574515f1cd7650cc5df))
-* **YouTube - Translations:** Update `Japanese` ([#141](https://github.com/anddea/revanced-patches/issues/141)) ([0b8af4d](https://github.com/anddea/revanced-patches/commit/0b8af4d1c0a172d6c3521d09d994f8110faade36))
-* **YouTube - Translations:** Update `Japanese` ([#149](https://github.com/anddea/revanced-patches/issues/149)) ([4497b8d](https://github.com/anddea/revanced-patches/commit/4497b8d4c0812b3af49888c51f0a72ec05b213ec))
-* **YouTube - Translations:** Update `Japanese` ([#164](https://github.com/anddea/revanced-patches/issues/164)) ([96ba623](https://github.com/anddea/revanced-patches/commit/96ba62317099e94467091bfa3c5c9c3c42c06e8a))
-* **YouTube - Translations:** Update `Japanese` ([#203](https://github.com/anddea/revanced-patches/issues/203)) ([d05dbf7](https://github.com/anddea/revanced-patches/commit/d05dbf7c900bb2dbdbcfa7792ce0174de585ebe2))
-* **YouTube - Translations:** Update `Japanese` ([#81](https://github.com/anddea/revanced-patches/issues/81)) ([5191bbe](https://github.com/anddea/revanced-patches/commit/5191bbe6777e11b1d823cdeb004423583259a9e2))
-* **YouTube - Translations:** Update `Japanese` ([#89](https://github.com/anddea/revanced-patches/issues/89)) ([f8b40f8](https://github.com/anddea/revanced-patches/commit/f8b40f81bdac3c1bd7e3d3fee94864b0da7656fd))
-* **YouTube - Translations:** Update `Korean` ([8b11f6a](https://github.com/anddea/revanced-patches/commit/8b11f6a698100b1e1d6ef83b0e6eccb36470ba35))
-* **YouTube - Translations:** Update `Korean` ([#108](https://github.com/anddea/revanced-patches/issues/108)) ([f29bfa5](https://github.com/anddea/revanced-patches/commit/f29bfa5cb8ed43ce66f3d9b3c1e5abfd74872461))
-* **YouTube - Translations:** Update `Korean` ([#116](https://github.com/anddea/revanced-patches/issues/116)) ([54516c1](https://github.com/anddea/revanced-patches/commit/54516c1275869cc589a93f3e0b8961c0cc040a48))
-* **YouTube - Translations:** Update `Korean` ([#120](https://github.com/anddea/revanced-patches/issues/120)) ([73e6139](https://github.com/anddea/revanced-patches/commit/73e61391df4a13e7cdbe7528154b624a12d8ebaa))
-* **YouTube - Translations:** Update `Korean` ([#169](https://github.com/anddea/revanced-patches/issues/169)) ([44d5504](https://github.com/anddea/revanced-patches/commit/44d5504de6e4d5a86e8b9f512a07a4936d7d71a4))
-* **YouTube - Translations:** Update `Korean` ([#175](https://github.com/anddea/revanced-patches/issues/175)) ([8299e54](https://github.com/anddea/revanced-patches/commit/8299e5404b4ee889a3050511d9a52fa4c98f332e))
-* **YouTube - Translations:** Update `Korean` ([#204](https://github.com/anddea/revanced-patches/issues/204)) ([3f08691](https://github.com/anddea/revanced-patches/commit/3f08691d5a2cf9fcf686c88506f12080337f003e))
-* **YouTube - Translations:** Update `Korean` ([#210](https://github.com/anddea/revanced-patches/issues/210)) ([86cff2c](https://github.com/anddea/revanced-patches/commit/86cff2cd21f642878f6b8bed0a24e355c5ffeab0))
-* **YouTube - Translations:** Update `Korean` ([#221](https://github.com/anddea/revanced-patches/issues/221)) ([702d901](https://github.com/anddea/revanced-patches/commit/702d9018b8d0e1079e8d63d5e01facebe0a4b399))
-* **YouTube - Translations:** Update `Korean` ([#240](https://github.com/anddea/revanced-patches/issues/240)) ([2c18dc5](https://github.com/anddea/revanced-patches/commit/2c18dc569d328e555dc95b0d6b416581bba4bdcd))
-* **YouTube - Translations:** Update `Polish` ([#135](https://github.com/anddea/revanced-patches/issues/135)) ([e2d1724](https://github.com/anddea/revanced-patches/commit/e2d1724272e79f22882eed9992c9deffca66f8c2))
-* **YouTube - Translations:** Update `Polish` ([#172](https://github.com/anddea/revanced-patches/issues/172)) ([55ab0cd](https://github.com/anddea/revanced-patches/commit/55ab0cd93c7b9e194cda511a61c6c71ef0d6aed3))
-* **YouTube - Translations:** Update `Polish` ([#185](https://github.com/anddea/revanced-patches/issues/185)) ([1d0bbcb](https://github.com/anddea/revanced-patches/commit/1d0bbcb347cfaf8148b9d749ea07e84955112662))
-* **YouTube - Translations:** Update `Russian` ([#156](https://github.com/anddea/revanced-patches/issues/156)) ([1f447ad](https://github.com/anddea/revanced-patches/commit/1f447ad6919a031c36b1500b8d7c5ffbe7a76bfb))
-* **YouTube - Translations:** Update `Russian` ([#181](https://github.com/anddea/revanced-patches/issues/181)) ([0a58307](https://github.com/anddea/revanced-patches/commit/0a5830736a926c52b4948dc5584b705d2587bf39))
-* **YouTube - Translations:** Update `Russian` ([#95](https://github.com/anddea/revanced-patches/issues/95)) ([a00a7b6](https://github.com/anddea/revanced-patches/commit/a00a7b6646c0f75968d683dc224e437debbc1c8d))
-* **YouTube - Translations:** Update `Spanish` ([#117](https://github.com/anddea/revanced-patches/issues/117)) ([18f5ac3](https://github.com/anddea/revanced-patches/commit/18f5ac3eb201f6493ff7467ef026c0b63c882df4))
-* **YouTube - Translations:** Update `Spanish` ([#171](https://github.com/anddea/revanced-patches/issues/171)) ([c5e6b74](https://github.com/anddea/revanced-patches/commit/c5e6b74a838f75889b2258a7669c49476afef67d))
-* **YouTube - Translations:** Update `Spanish` ([#183](https://github.com/anddea/revanced-patches/issues/183)) ([56dc375](https://github.com/anddea/revanced-patches/commit/56dc37537d4e4e0b9a96b6c89e799e9b5cc62750))
-* **YouTube - Translations:** Update `Spanish` ([#79](https://github.com/anddea/revanced-patches/issues/79)) ([1c3731d](https://github.com/anddea/revanced-patches/commit/1c3731dc8c38b9233fb5fdca804560ff30c15c8b))
-* **YouTube - Translations:** Update `Ukrainian` ([ac81500](https://github.com/anddea/revanced-patches/commit/ac81500024cc0794cc52dc5c1da5367aeff45764))
-* **YouTube - Translations:** Update `Ukrainian` ([#146](https://github.com/anddea/revanced-patches/issues/146)) ([5af8f4e](https://github.com/anddea/revanced-patches/commit/5af8f4e678814e3003dfb5ae21b1594526b79b00))
-* **YouTube - Translations:** Update `Ukrainian` ([#167](https://github.com/anddea/revanced-patches/issues/167)) ([398abbc](https://github.com/anddea/revanced-patches/commit/398abbc0e408dabb39120111b3a1104e16be8115))
-* **YouTube - Translations:** Update `Ukrainian` ([#191](https://github.com/anddea/revanced-patches/issues/191)) ([24feb05](https://github.com/anddea/revanced-patches/commit/24feb05aac108ffd4a7e09619824dc4723ad44a6))
-* **YouTube - Translations:** Update Japanese ([#176](https://github.com/anddea/revanced-patches/issues/176)) ([4218359](https://github.com/anddea/revanced-patches/commit/4218359d8dd89fcf5340ee9bf62d3fcba5ed8f38))
-* **YouTube - Translation:** Update `Italian` ([#73](https://github.com/anddea/revanced-patches/issues/73)) ([ee9f012](https://github.com/anddea/revanced-patches/commit/ee9f012e180acfd7d3ffedee37e3b73b2743295a)), closes [#71](https://github.com/anddea/revanced-patches/issues/71)
-* **YouTube/Settings menu:** Adding a submenu title `Keyword filter` ([#180](https://github.com/anddea/revanced-patches/issues/180)) ([5702b90](https://github.com/anddea/revanced-patches/commit/5702b90d5c6b32685727032b4faefce12221f325))
-* **YouTube/Translations:** Update `Russian` ([#233](https://github.com/anddea/revanced-patches/issues/233)) ([38c6a8c](https://github.com/anddea/revanced-patches/commit/38c6a8c7a218f01a5eb30ad7fe3a1f59f1f6e343))
-* **YouTube:** Add `Hide settings preferences` ([d8b1da2](https://github.com/anddea/revanced-patches/commit/d8b1da2180bb9ffbce2d8febd635da41ce06aa36))
-* **YouTube:** Add `Tuck away preferences` for force hide elements from main settings ([82c76f0](https://github.com/anddea/revanced-patches/commit/82c76f09a1882a5aa5792114fc05494bc1a2dda5))
-* **YouTube:** Bump support version `19.09.38` - `19.10.39` ([#96](https://github.com/anddea/revanced-patches/issues/96)) ([bd7cb77](https://github.com/anddea/revanced-patches/commit/bd7cb771d0529436b690428316ae89517a6ef435))
-* **YouTube:** Bump support version `19.11.38` ([#110](https://github.com/anddea/revanced-patches/issues/110)) ([99142d8](https://github.com/anddea/revanced-patches/commit/99142d89ca4d2e0735b130a504a4d4a394fde605))
-* **YT Music - Custom branding icon:** Add more options ([86ec325](https://github.com/anddea/revanced-patches/commit/86ec3250cdd5ad40837067923b1eb5ef69f4e37e))
-* **YT Music:** Bump new versions ([1fbaeef](https://github.com/anddea/revanced-patches/commit/1fbaeef5cf21ce8b914c8c4cf49a33f1e23abbd9))
+* **Custom branding icon:** Add `Revancify Yellow` icon ([#533](https://github.com/anddea/revanced-patches/issues/533)) ([d3bdd97](https://github.com/anddea/revanced-patches/commit/d3bdd97c8afc205fca85627740d3da498afb2121))
+* **GmsCore support:** Add `Don't show again` option for battery optimization dialog ([3069354](https://github.com/anddea/revanced-patches/commit/3069354e5e736dbbebc1a85cdde2762a436f1338))
+* **Hide ads:** Add `Close fullscreen ads` settings ([a9fc181](https://github.com/anddea/revanced-patches/commit/a9fc181507e8e56f9d29e1ab97061fec1455100a))
+* **Reddit/Settings for Reddit:** add patch option `RVX settings menu name` ([5d51d81](https://github.com/anddea/revanced-patches/commit/5d51d815a7d4948f17ee4133d818492cb406f61d))
+* **Reddit:** Add `Change version code` patch ([ec7da6d](https://github.com/anddea/revanced-patches/commit/ec7da6d5c7f46cfc51a6b7121e712d1db3670b13))
+* **Reddit:** Add `Hide recommended communities shelf` patch ([3a07f0a](https://github.com/anddea/revanced-patches/commit/3a07f0a379e500b03dcdb265136d79360fc313b6))
+* **YouTube - Custom branding icon:** Add `MMT Blue`, `MMT Green`, `MMT Yellow` ([941216e](https://github.com/anddea/revanced-patches/commit/941216eff18351580ac665fe49300432729aba26))
+* **YouTube - Custom branding icon:** Add new splash animations for all `Revancify` icons ([#629](https://github.com/anddea/revanced-patches/issues/629)) ([2d2e504](https://github.com/anddea/revanced-patches/commit/2d2e5045c94f409559e46f6871eabb64407d9443))
+* **YouTube - Custom branding icon:** Add splash animation for `Revancify Blue`, `Revancify Red` and `Revancify Yellow` ([95fed8c](https://github.com/anddea/revanced-patches/commit/95fed8c986966f187e016d56d1c969db0ce9141b))
+* **YouTube - Custom branding icon:** Add splash animations for AFN Blue and AFN Red ([f5c0178](https://github.com/anddea/revanced-patches/commit/f5c0178befc0d38998bd7f9d660d1147786bf549))
+* **YouTube - Hide player flyout menu:** Add `Hide quality menu header` ([99af80b](https://github.com/anddea/revanced-patches/commit/99af80be0c5d84433cae983fa694e6ad48906e4a))
+* **YouTube - Miniplayer:** Add `Enable drag and drop` setting (YouTube 19.23.40+) ([fa0ac0f](https://github.com/anddea/revanced-patches/commit/fa0ac0fc5dd710ed50f232c67820527e23cd9838))
+* **YouTube - Navigation bar components:** Add `Enable translucent navigation bar` setting ([e9ff3c9](https://github.com/anddea/revanced-patches/commit/e9ff3c9aa61ea0d4090e02e1fe9722d96cee9841))
+* **YouTube - Overlay buttons:** Add content descriptions to overlay buttons for improved accessibility ([4d61417](https://github.com/anddea/revanced-patches/commit/4d6141776c6255bf4fc31173dbedd4fe9cec188f))
+* **YouTube - Searchbar:** Complete restyle ([#652](https://github.com/anddea/revanced-patches/issues/652)) ([8458e1a](https://github.com/anddea/revanced-patches/commit/8458e1ae561622d2a49a4dc3e71bb9157f2e153e))
+* **YouTube - Seekbar components:** Add `Enable Cairo seekbar` setting (YouTube 19.23.40+) ([95ed714](https://github.com/anddea/revanced-patches/commit/95ed714c4ef0bf3c88ab534ebb00e7b6e83b41d4))
+* **YouTube - Shorts components:** Add `Hide Super Thanks button` setting ([b0482c7](https://github.com/anddea/revanced-patches/commit/b0482c73271a8cae1c7da83153c935c061ab1431))
+* **YouTube - Shorts overlay buttons:** Update `Outline` and `OutlineCircle` icons ([527681c](https://github.com/anddea/revanced-patches/commit/527681c2572231dd15660e765c7408efd5cef4f1))
+* **YouTube - Spoof client:** Add `Show in Stats for nerds` setting ([b287a61](https://github.com/anddea/revanced-patches/commit/b287a61e480027689ea2ef792a84dcf1c9b002ab))
+* **YouTube - Spoof client:** Selectively spoof client for general video / livestreams / Shorts / fallback (unplayable video) ([d92de62](https://github.com/anddea/revanced-patches/commit/d92de62fc05ba4df1343ddf270e78bd3f4e53e58))
+* **YouTube - Start page:** Add `Playables` and `Courses / Learning` ([6c2c5b0](https://github.com/anddea/revanced-patches/commit/6c2c5b0060261dfaee47bf6c359b8db2ce9ce7ac))
+* **YouTube - Translations:** Remove unselected languages from UI ([b8d3946](https://github.com/anddea/revanced-patches/commit/b8d3946094caca123a6661ac17b01c28792683f1))
+* **YouTube - Translations:** Update `Ukrainian` ([#611](https://github.com/anddea/revanced-patches/issues/611)) ([dab2892](https://github.com/anddea/revanced-patches/commit/dab2892ca34dad17b5e21ce8a0516c9ac75897b9))
+* **YouTube Music - Custom branding icon:** Add `MMT Blue`, `MMT Green` and `MMT Yellow` ([27b8aa7](https://github.com/anddea/revanced-patches/commit/27b8aa779642ef979ebd9448943cb8931dde647d))
+* **YouTube Music/Settings for YouTube Music:** add patch option `RVX settings menu name` ([e62e2d3](https://github.com/anddea/revanced-patches/commit/e62e2d375175bf40aac8135b40b554aa69466c65))
+* **YouTube Music:** Add `Enable Cairo splash animation` patch (YouTube Music 7.06.53+) ([a09dd4c](https://github.com/anddea/revanced-patches/commit/a09dd4c47e6bebb50dfa35b7da0b1b76d073d8bc))
+* **YouTube Music:** Add `Visual preferences icons` ([8672b10](https://github.com/anddea/revanced-patches/commit/8672b1001a3ccd34102261738cdeb031f97cf572))
+* **YouTube Music:** Add support version `7.04.51` ([62b19b8](https://github.com/anddea/revanced-patches/commit/62b19b8ca17aab73852ef261458a31b27fbf6748))
+* **YouTube Music:** add support version `7.05.52` ([91f9dd8](https://github.com/anddea/revanced-patches/commit/91f9dd8db139c16ff573702d54cb7c40315b3c5f))
+* **YouTube Music:** add support version `7.05.53` ([9c1c0c9](https://github.com/anddea/revanced-patches/commit/9c1c0c9a65de4738fe505ece707386dbf83885ef))
+* **YouTube Music:** Add support versions `7.02.52` ~ `7.03.51` ([40df716](https://github.com/anddea/revanced-patches/commit/40df7164f7e465d03744b3a7e24fd8f9f1ac3584))
+* **YouTube Music:** Add support versions `7.05.54` ~ `7.06.53` ([cc2bd1f](https://github.com/anddea/revanced-patches/commit/cc2bd1f060ee5c0282baaeedf64ba3473d50c4c2))
+* **YouTube Music:** Remove `Replace Cast button` patch ([b65a118](https://github.com/anddea/revanced-patches/commit/b65a118ffab3af71822295b746b332602f2c5373))
+* **YouTube/Hide action buttons:** add `Disable Like and Dislike button glow` setting ([34d8bb1](https://github.com/anddea/revanced-patches/commit/34d8bb1abe32d3e56cd220ba0cf52555a85fabfe))
+* **YouTube:** Add `Enable OPUS codec` patch ([f4684df](https://github.com/anddea/revanced-patches/commit/f4684dfd3d46eb19844761ff7818fa691cdbc543))
+* **YouTube:** add `Miniplayer` patch (Replaces `Enable tablet mini player` patch) ([0e873ba](https://github.com/anddea/revanced-patches/commit/0e873bac39b5aba5072001744c8e9920b45a4d23))
+* **YouTube:** Add support version `19.20.35` ([45b5c5d](https://github.com/anddea/revanced-patches/commit/45b5c5dcb5cf7c6880ee4872a994373640e5b637))
+* **YouTube:** add support version `19.21.40` ([5dfb419](https://github.com/anddea/revanced-patches/commit/5dfb4194030df04b163f017071489f6d22f31f46))
+* **YouTube:** Add support version `19.23.40` ([19a14cd](https://github.com/anddea/revanced-patches/commit/19a14cd5d24c8867e1ee4c131f1e7a51763a1f11))
+* **YouTube:** Remove `Spoof format stream data` patch ([35aeec3](https://github.com/anddea/revanced-patches/commit/35aeec3e12c8adb64dcfe1396980b9722cf4ccaa))
 
-# [2.223.0-dev.25](https://github.com/anddea/revanced-patches/compare/v2.223.0-dev.24...v2.223.0-dev.25) (2024-04-01)
+# [2.226.0-dev.20](https://github.com/anddea/revanced-patches/compare/v2.226.0-dev.19...v2.226.0-dev.20) (2024-06-26)
 
 
 ### Features
 
-* **YouTube - Translations:** Update `Korean` ([#240](https://github.com/anddea/revanced-patches/issues/240)) ([2c18dc5](https://github.com/anddea/revanced-patches/commit/2c18dc569d328e555dc95b0d6b416581bba4bdcd))
+* **YouTube - Shorts overlay buttons:** Update `Outline` and `OutlineCircle` icons ([527681c](https://github.com/anddea/revanced-patches/commit/527681c2572231dd15660e765c7408efd5cef4f1))
 
-# [2.223.0-dev.24](https://github.com/anddea/revanced-patches/compare/v2.223.0-dev.23...v2.223.0-dev.24) (2024-04-01)
+# [2.226.0-dev.19](https://github.com/anddea/revanced-patches/compare/v2.226.0-dev.18...v2.226.0-dev.19) (2024-06-26)
+
+
+### Features
+
+* **YouTube - Searchbar:** Complete restyle ([#652](https://github.com/anddea/revanced-patches/issues/652)) ([8458e1a](https://github.com/anddea/revanced-patches/commit/8458e1ae561622d2a49a4dc3e71bb9157f2e153e))
+
+# [2.226.0-dev.18](https://github.com/anddea/revanced-patches/compare/v2.226.0-dev.17...v2.226.0-dev.18) (2024-06-24)
 
 
 ### Bug Fixes
 
-* **YouTube - Tuck away preferences:** Possible fix to hide "Purchases and memberships" ([0b8ec7c](https://github.com/anddea/revanced-patches/commit/0b8ec7ca82688cab3fd3d44930353d95dcb5fe55))
+* **Settings:** Failed with custom RVXSettingsMenuName ([c0d3ed0](https://github.com/anddea/revanced-patches/commit/c0d3ed0b377f018913d217962088e935084c167c))
+* **YouTube Music - Visual preferences icons:** Add missing custom branding icons ([1071471](https://github.com/anddea/revanced-patches/commit/10714717b69710f7c5eb364cb7d0a604c00dae55))
 
-# [2.223.0-dev.23](https://github.com/anddea/revanced-patches/compare/v2.223.0-dev.22...v2.223.0-dev.23) (2024-04-01)
-
-
-### Features
-
-* **YouTube/Translations:** Update `Russian` ([#233](https://github.com/anddea/revanced-patches/issues/233)) ([38c6a8c](https://github.com/anddea/revanced-patches/commit/38c6a8c7a218f01a5eb30ad7fe3a1f59f1f6e343))
-
-# [2.223.0-dev.22](https://github.com/anddea/revanced-patches/compare/v2.223.0-dev.21...v2.223.0-dev.22) (2024-04-01)
+# [2.226.0-dev.17](https://github.com/anddea/revanced-patches/compare/v2.226.0-dev.16...v2.226.0-dev.17) (2024-06-23)
 
 
 ### Bug Fixes
 
-* **YouTube - Overlay buttons:** Update time-ordered button ([e7a8e30](https://github.com/anddea/revanced-patches/commit/e7a8e302fc42dc60ecb2cf02ac78b1ecae5cb90e))
-* **YouTube - Theme:** Remove redundant code and seekbar color ([46b345c](https://github.com/anddea/revanced-patches/commit/46b345c1e2582507358d9eb477e6a7036e402ee3))
+* **GmsCore support:** Spoof package name ([9c4e70c](https://github.com/anddea/revanced-patches/commit/9c4e70cf896e1ca9efc6c9b3766eca7c6869a413))
+* **Reddit - Settings:** Patch option `RVX settings menu name` does not apply to header in ReVanced Extended settings ([4827a0f](https://github.com/anddea/revanced-patches/commit/4827a0fa0b1ee8f576fa1020f9a0378b79cdf9cc))
+* **YouTube - Miniplayer:** `Hide expand and close buttons` setting is not disabled in `Modern 1` on YouTube 19.20.35+ ([b7c330a](https://github.com/anddea/revanced-patches/commit/b7c330ace90f9761cd06322eb0840b593d1e26d1))
+* **YouTube - Spoof client:** Seekbar thumbnail not shown in `Android Testsuite` client ([74d50b1](https://github.com/anddea/revanced-patches/commit/74d50b1b5ad5860a4f341039e953a7c38b457afb))
+* **YouTube:** `Hide animated button background` patch doesn't work ([37fac01](https://github.com/anddea/revanced-patches/commit/37fac01c5b173fbbdfa9c44043b086836cbb36cd))
 
 
 ### Features
 
-* **YouTube - Shorts overlay buttons:** Add TikTok buttons for older versions ([fd296f3](https://github.com/anddea/revanced-patches/commit/fd296f3017e32720cd901dbd9d578504d49e1909))
-* **YouTube:** Add `Tuck away preferences` for force hide elements from main settings ([82c76f0](https://github.com/anddea/revanced-patches/commit/82c76f09a1882a5aa5792114fc05494bc1a2dda5))
+* **Reddit:** Add `Change version code` patch ([ec7da6d](https://github.com/anddea/revanced-patches/commit/ec7da6d5c7f46cfc51a6b7121e712d1db3670b13))
+* **Reddit:** Add `Hide recommended communities shelf` patch ([3a07f0a](https://github.com/anddea/revanced-patches/commit/3a07f0a379e500b03dcdb265136d79360fc313b6))
+* **YouTube - Miniplayer:** Add `Enable drag and drop` setting (YouTube 19.23.40+) ([fa0ac0f](https://github.com/anddea/revanced-patches/commit/fa0ac0fc5dd710ed50f232c67820527e23cd9838))
+* **YouTube - Navigation bar components:** Add `Enable translucent navigation bar` setting ([e9ff3c9](https://github.com/anddea/revanced-patches/commit/e9ff3c9aa61ea0d4090e02e1fe9722d96cee9841))
+* **YouTube - Seekbar components:** Add `Enable Cairo seekbar` setting (YouTube 19.23.40+) ([95ed714](https://github.com/anddea/revanced-patches/commit/95ed714c4ef0bf3c88ab534ebb00e7b6e83b41d4))
+* **YouTube Music:** Add `Enable Cairo splash animation` patch (YouTube Music 7.06.53+) ([a09dd4c](https://github.com/anddea/revanced-patches/commit/a09dd4c47e6bebb50dfa35b7da0b1b76d073d8bc))
+* **YouTube Music:** Add support versions `7.05.54` ~ `7.06.53` ([cc2bd1f](https://github.com/anddea/revanced-patches/commit/cc2bd1f060ee5c0282baaeedf64ba3473d50c4c2))
+* **YouTube:** Add support version `19.23.40` ([19a14cd](https://github.com/anddea/revanced-patches/commit/19a14cd5d24c8867e1ee4c131f1e7a51763a1f11))
 
-# [2.223.0-dev.21](https://github.com/anddea/revanced-patches/compare/v2.223.0-dev.20...v2.223.0-dev.21) (2024-03-31)
+# [2.226.0-dev.16](https://github.com/anddea/revanced-patches/compare/v2.226.0-dev.15...v2.226.0-dev.16) (2024-06-21)
 
 
 ### Features
 
-* **YouTube - Shorts overlay buttons:** Update icons ([62f3785](https://github.com/anddea/revanced-patches/commit/62f37858e550831cd1698be519f02c894a9f8736))
-* **YouTube - Translations:** Update `Italian` ([#219](https://github.com/anddea/revanced-patches/issues/219)) ([f27cf62](https://github.com/anddea/revanced-patches/commit/f27cf62c8172b222f280ec313e03a8b057911777))
-* **YouTube - Translations:** Update `Korean` ([#221](https://github.com/anddea/revanced-patches/issues/221)) ([702d901](https://github.com/anddea/revanced-patches/commit/702d9018b8d0e1079e8d63d5e01facebe0a4b399))
-* **YouTube:** Add `Hide settings preferences` ([d8b1da2](https://github.com/anddea/revanced-patches/commit/d8b1da2180bb9ffbce2d8febd635da41ce06aa36))
+* **YouTube - Custom branding icon:** Add new splash animations for all `Revancify` icons ([#629](https://github.com/anddea/revanced-patches/issues/629)) ([2d2e504](https://github.com/anddea/revanced-patches/commit/2d2e5045c94f409559e46f6871eabb64407d9443))
 
-# [2.223.0-dev.20](https://github.com/anddea/revanced-patches/compare/v2.223.0-dev.19...v2.223.0-dev.20) (2024-03-30)
+# [2.226.0-dev.15](https://github.com/anddea/revanced-patches/compare/v2.226.0-dev.14...v2.226.0-dev.15) (2024-06-19)
+
+
+### Features
+
+* **YouTube Music - Custom branding icon:** Add `MMT Blue`, `MMT Green` and `MMT Yellow` ([27b8aa7](https://github.com/anddea/revanced-patches/commit/27b8aa779642ef979ebd9448943cb8931dde647d))
+
+# [2.226.0-dev.14](https://github.com/anddea/revanced-patches/compare/v2.226.0-dev.13...v2.226.0-dev.14) (2024-06-18)
+
+
+### Features
+
+* **YouTube - Custom branding icon:** Add splash animation for `Revancify Blue`, `Revancify Red` and `Revancify Yellow` ([95fed8c](https://github.com/anddea/revanced-patches/commit/95fed8c986966f187e016d56d1c969db0ce9141b))
+
+# [2.226.0-dev.13](https://github.com/anddea/revanced-patches/compare/v2.226.0-dev.12...v2.226.0-dev.13) (2024-06-17)
+
+
+### Features
+
+* **YouTube - Translations:** Update `Ukrainian` ([#611](https://github.com/anddea/revanced-patches/issues/611)) ([dab2892](https://github.com/anddea/revanced-patches/commit/dab2892ca34dad17b5e21ce8a0516c9ac75897b9))
+
+# [2.226.0-dev.12](https://github.com/anddea/revanced-patches/compare/v2.226.0-dev.11...v2.226.0-dev.12) (2024-06-17)
+
+
+### Features
+
+* **YouTube - Custom branding icon:** Add `MMT Blue`, `MMT Green`, `MMT Yellow` ([941216e](https://github.com/anddea/revanced-patches/commit/941216eff18351580ac665fe49300432729aba26))
+* **YouTube - Start page:** Add `Playables` and `Courses / Learning` ([6c2c5b0](https://github.com/anddea/revanced-patches/commit/6c2c5b0060261dfaee47bf6c359b8db2ce9ce7ac))
+
+# [2.226.0-dev.11](https://github.com/anddea/revanced-patches/compare/v2.226.0-dev.10...v2.226.0-dev.11) (2024-06-14)
 
 
 ### Bug Fixes
 
-* **YouTube - Translations:** Update `Japanese` ([#214](https://github.com/anddea/revanced-patches/issues/214)) ([bb5318e](https://github.com/anddea/revanced-patches/commit/bb5318e7807632a0136fd54147cedd358b132e96))
-* **YT Music:** Support latest versions ([4575e86](https://github.com/anddea/revanced-patches/commit/4575e86de5405417dead2cc2ab7cc509144fafaf))
+* **YouTube - Translations:** Removed some languages from UI ([93279da](https://github.com/anddea/revanced-patches/commit/93279da02684887dbb1f25668f64f49f2ca55391))
+
+# [2.226.0-dev.10](https://github.com/anddea/revanced-patches/compare/v2.226.0-dev.9...v2.226.0-dev.10) (2024-06-14)
 
 
 ### Features
 
-* **YouTube - Translations:** Update `Korean` ([#210](https://github.com/anddea/revanced-patches/issues/210)) ([86cff2c](https://github.com/anddea/revanced-patches/commit/86cff2cd21f642878f6b8bed0a24e355c5ffeab0))
+* **YouTube - Custom branding icon:** Add splash animations for AFN Blue and AFN Red ([f5c0178](https://github.com/anddea/revanced-patches/commit/f5c0178befc0d38998bd7f9d660d1147786bf549))
 
-# [2.223.0-dev.19](https://github.com/anddea/revanced-patches/compare/v2.223.0-dev.18...v2.223.0-dev.19) (2024-03-29)
+# [2.226.0-dev.9](https://github.com/anddea/revanced-patches/compare/v2.226.0-dev.8...v2.226.0-dev.9) (2024-06-14)
 
 
 ### Bug Fixes
 
-* **YouTube - Custom branding icon:** Remove redundant style ([3fe0040](https://github.com/anddea/revanced-patches/commit/3fe00409cc2c141a03c5150f204fdd00be3497c6))
+* **Hide ads:** app crashes in the old client ([2a61d08](https://github.com/anddea/revanced-patches/commit/2a61d08cb59d76115d0f0ddd7deecc8e02a245dc))
+* **YouTube/Overlay buttons:** in devices that do not use `xxhdpi`, some buttons are not replaced correctly ([030b2f6](https://github.com/anddea/revanced-patches/commit/030b2f6fa43ce280266ce45a2f2272aa4d1c1eda))
 
-# [2.223.0-dev.18](https://github.com/anddea/revanced-patches/compare/v2.223.0-dev.17...v2.223.0-dev.18) (2024-03-29)
+
+### Features
+
+* **Reddit/Settings for Reddit:** add patch option `RVX settings menu name` ([5d51d81](https://github.com/anddea/revanced-patches/commit/5d51d815a7d4948f17ee4133d818492cb406f61d))
+* **YouTube Music/Settings for YouTube Music:** add patch option `RVX settings menu name` ([e62e2d3](https://github.com/anddea/revanced-patches/commit/e62e2d375175bf40aac8135b40b554aa69466c65))
+* **YouTube Music:** add support version `7.05.52` ([91f9dd8](https://github.com/anddea/revanced-patches/commit/91f9dd8db139c16ff573702d54cb7c40315b3c5f))
+* **YouTube Music:** add support version `7.05.53` ([9c1c0c9](https://github.com/anddea/revanced-patches/commit/9c1c0c9a65de4738fe505ece707386dbf83885ef))
+* **YouTube/Hide action buttons:** add `Disable Like and Dislike button glow` setting ([34d8bb1](https://github.com/anddea/revanced-patches/commit/34d8bb1abe32d3e56cd220ba0cf52555a85fabfe))
+* **YouTube:** add `Miniplayer` patch (Replaces `Enable tablet mini player` patch) ([0e873ba](https://github.com/anddea/revanced-patches/commit/0e873bac39b5aba5072001744c8e9920b45a4d23))
+* **YouTube:** add support version `19.21.40` ([5dfb419](https://github.com/anddea/revanced-patches/commit/5dfb4194030df04b163f017071489f6d22f31f46))
+
+# [2.226.0-dev.8](https://github.com/anddea/revanced-patches/compare/v2.226.0-dev.7...v2.226.0-dev.8) (2024-06-12)
+
+
+### Features
+
+* **YouTube - Translations:** Remove unselected languages from UI ([b8d3946](https://github.com/anddea/revanced-patches/commit/b8d3946094caca123a6661ac17b01c28792683f1))
+
+# [2.226.0-dev.7](https://github.com/anddea/revanced-patches/compare/v2.226.0-dev.6...v2.226.0-dev.7) (2024-06-11)
 
 
 ### Bug Fixes
 
-* **YouTube - Visual settings icons:** Add missing dependency ([b3b3545](https://github.com/anddea/revanced-patches/commit/b3b35457fc91eed32bb5a9983e94d189e72d5c7b))
+* **Custom branding icon:** Failed because of missing resources ([5e0723e](https://github.com/anddea/revanced-patches/commit/5e0723e52856a93f06f798b1fc18e18bbfa56490))
 
-# [2.223.0-dev.17](https://github.com/anddea/revanced-patches/compare/v2.223.0-dev.16...v2.223.0-dev.17) (2024-03-29)
-
-
-### Features
-
-* **YouTube - Custom branding icon:** Add splash animation for MMT ([bb97a79](https://github.com/anddea/revanced-patches/commit/bb97a7986bfb29a8c1032b3bbb338cf0f59c14ea))
-* **YouTube - Translations:** Update `Chinese Traditional` ([#205](https://github.com/anddea/revanced-patches/issues/205)) ([f83954f](https://github.com/anddea/revanced-patches/commit/f83954f4d6ddf3c0d9fd71f3a8ff024bc5164237))
-
-# [2.223.0-dev.16](https://github.com/anddea/revanced-patches/compare/v2.223.0-dev.15...v2.223.0-dev.16) (2024-03-29)
+# [2.226.0-dev.6](https://github.com/anddea/revanced-patches/compare/v2.226.0-dev.5...v2.226.0-dev.6) (2024-06-11)
 
 
 ### Bug Fixes
 
-* **YouTube - Translations:** Update translations info ([e3571d3](https://github.com/anddea/revanced-patches/commit/e3571d3865082e42f276720a42a13f2fb8e45fe8))
-
-# [2.223.0-dev.15](https://github.com/anddea/revanced-patches/compare/v2.223.0-dev.14...v2.223.0-dev.15) (2024-03-29)
+* **YouTube - Spoof client:** Restore playback speed menu when spoofing to an iOS, Android TV, Android Testsuite client ([06ffb15](https://github.com/anddea/revanced-patches/commit/06ffb15d8bf5b91fa98910d975d3ad887e609789))
 
 
 ### Features
 
-* **YouTube - Translations:** Update `Chinese Simplified` ([#196](https://github.com/anddea/revanced-patches/issues/196)) ([2711e2a](https://github.com/anddea/revanced-patches/commit/2711e2ab6626bc0bea2638bb411af62e7512660b))
-* **YouTube - Translations:** Update `Italian` ([#198](https://github.com/anddea/revanced-patches/issues/198)) ([13105fa](https://github.com/anddea/revanced-patches/commit/13105fafed92e561d4896a59f9de402d7a89586f))
-* **YouTube - Translations:** Update `Japanese` ([#203](https://github.com/anddea/revanced-patches/issues/203)) ([d05dbf7](https://github.com/anddea/revanced-patches/commit/d05dbf7c900bb2dbdbcfa7792ce0174de585ebe2))
-* **YouTube - Translations:** Update `Korean` ([#204](https://github.com/anddea/revanced-patches/issues/204)) ([3f08691](https://github.com/anddea/revanced-patches/commit/3f08691d5a2cf9fcf686c88506f12080337f003e))
-* **YouTube - Translations:** Update `Polish` ([#185](https://github.com/anddea/revanced-patches/issues/185)) ([1d0bbcb](https://github.com/anddea/revanced-patches/commit/1d0bbcb347cfaf8148b9d749ea07e84955112662))
-* **YouTube - Translations:** Update `Spanish` ([#183](https://github.com/anddea/revanced-patches/issues/183)) ([56dc375](https://github.com/anddea/revanced-patches/commit/56dc37537d4e4e0b9a96b6c89e799e9b5cc62750))
-* **YouTube - Translations:** Update `Ukrainian` ([#191](https://github.com/anddea/revanced-patches/issues/191)) ([24feb05](https://github.com/anddea/revanced-patches/commit/24feb05aac108ffd4a7e09619824dc4723ad44a6))
+* **Hide ads:** Add `Close fullscreen ads` settings ([a9fc181](https://github.com/anddea/revanced-patches/commit/a9fc181507e8e56f9d29e1ab97061fec1455100a))
+* **YouTube - Hide player flyout menu:** Add `Hide quality menu header` ([99af80b](https://github.com/anddea/revanced-patches/commit/99af80be0c5d84433cae983fa694e6ad48906e4a))
+* **YouTube - Shorts components:** Add `Hide Super Thanks button` setting ([b0482c7](https://github.com/anddea/revanced-patches/commit/b0482c73271a8cae1c7da83153c935c061ab1431))
+* **YouTube Music:** Add support version `7.04.51` ([62b19b8](https://github.com/anddea/revanced-patches/commit/62b19b8ca17aab73852ef261458a31b27fbf6748))
+* **YouTube Music:** Remove `Replace Cast button` patch ([b65a118](https://github.com/anddea/revanced-patches/commit/b65a118ffab3af71822295b746b332602f2c5373))
+* **YouTube:** Add `Enable OPUS codec` patch ([f4684df](https://github.com/anddea/revanced-patches/commit/f4684dfd3d46eb19844761ff7818fa691cdbc543))
+* **YouTube:** Add support version `19.20.35` ([45b5c5d](https://github.com/anddea/revanced-patches/commit/45b5c5dcb5cf7c6880ee4872a994373640e5b637))
 
-# [2.223.0-dev.14](https://github.com/anddea/revanced-patches/compare/v2.223.0-dev.13...v2.223.0-dev.14) (2024-03-28)
+# [2.226.0-dev.5](https://github.com/anddea/revanced-patches/compare/v2.226.0-dev.4...v2.226.0-dev.5) (2024-06-05)
+
+
+### Features
+
+* **GmsCore support:** Add `Don't show again` option for battery optimization dialog ([3069354](https://github.com/anddea/revanced-patches/commit/3069354e5e736dbbebc1a85cdde2762a436f1338))
+
+# [2.226.0-dev.4](https://github.com/anddea/revanced-patches/compare/v2.226.0-dev.3...v2.226.0-dev.4) (2024-06-01)
 
 
 ### Bug Fixes
 
-* **YouTube - Translations:** Update translations info ([8de81ba](https://github.com/anddea/revanced-patches/commit/8de81ba9ae620a74a5db87fd305ff4c96e0f51c0))
-* **YT Music - Enable old style miniplayer:** Update description ([dee3a45](https://github.com/anddea/revanced-patches/commit/dee3a453b173fab46fb3c1c98026309e5e232bea))
+* **YouTube - Custom branding icon:** Add `Revancify Yellow` to patch options ([aea7060](https://github.com/anddea/revanced-patches/commit/aea70604ae326ec86ddec5b37d03a06673292545))
+
+# [2.226.0-dev.3](https://github.com/anddea/revanced-patches/compare/v2.226.0-dev.2...v2.226.0-dev.3) (2024-06-01)
 
 
 ### Features
 
-* **YouTube - Layout component filter:** Adjust filter for more patterns ([1163ff7](https://github.com/anddea/revanced-patches/commit/1163ff75ef9013be6b135ea4fc523cd2441dc7da))
+* **Custom branding icon:** Add `Revancify Yellow` icon ([#533](https://github.com/anddea/revanced-patches/issues/533)) ([d3bdd97](https://github.com/anddea/revanced-patches/commit/d3bdd97c8afc205fca85627740d3da498afb2121))
+* **YouTube - Overlay buttons:** Add content descriptions to overlay buttons for improved accessibility ([4d61417](https://github.com/anddea/revanced-patches/commit/4d6141776c6255bf4fc31173dbedd4fe9cec188f))
+* **YouTube Music:** Add `Visual preferences icons` ([8672b10](https://github.com/anddea/revanced-patches/commit/8672b1001a3ccd34102261738cdeb031f97cf572))
 
-# [2.223.0-dev.13](https://github.com/anddea/revanced-patches/compare/v2.223.0-dev.12...v2.223.0-dev.13) (2024-03-27)
+# [2.226.0-dev.2](https://github.com/anddea/revanced-patches/compare/v2.226.0-dev.1...v2.226.0-dev.2) (2024-05-31)
 
 
 ### Bug Fixes
 
-* **YouTube - Translations:** Update translations info ([de428b0](https://github.com/anddea/revanced-patches/commit/de428b00db7ca7bf1cdfbedd84e5c18c9a59e40c))
+* **YouTube - Visual preferences icons:** Typo in QUIC ([409e283](https://github.com/anddea/revanced-patches/commit/409e2831b3c1ab9db1023e5f6257d4d4d327a592))
 
-
-### Features
-
-* **YouTube - Layout component filter:** Add locale support for a video filter based on view count ([689193f](https://github.com/anddea/revanced-patches/commit/689193f6d76255a7e71916a715116409d4858335))
-
-# [2.223.0-dev.12](https://github.com/anddea/revanced-patches/compare/v2.223.0-dev.11...v2.223.0-dev.12) (2024-03-27)
-
-
-### Features
-
-* **YouTube - Translations:** Update `Russian` ([#181](https://github.com/anddea/revanced-patches/issues/181)) ([0a58307](https://github.com/anddea/revanced-patches/commit/0a5830736a926c52b4948dc5584b705d2587bf39))
-* **YouTube/Settings menu:** Adding a submenu title `Keyword filter` ([#180](https://github.com/anddea/revanced-patches/issues/180)) ([5702b90](https://github.com/anddea/revanced-patches/commit/5702b90d5c6b32685727032b4faefce12221f325))
-
-# [2.223.0-dev.11](https://github.com/anddea/revanced-patches/compare/v2.223.0-dev.10...v2.223.0-dev.11) (2024-03-27)
+# [2.226.0-dev.1](https://github.com/anddea/revanced-patches/compare/v2.225.0...v2.226.0-dev.1) (2024-05-31)
 
 
 ### Bug Fixes
 
-* **YouTube - Translations:** Fix typo in `Spanish` ([#174](https://github.com/anddea/revanced-patches/issues/174)) ([8d1507c](https://github.com/anddea/revanced-patches/commit/8d1507c72c5b22419dabecac21a2072a6dda9ffa))
+* **YouTube - Settings:** `CairoSettings` is applied due to A/B testing ([bad0f92](https://github.com/anddea/revanced-patches/commit/bad0f929853890eaac7a21a4faaad5cf43077f74))
+* **YouTube - Spoof client:** Player gestures not working when spoofing with `Android VR` client ([0cdc4f3](https://github.com/anddea/revanced-patches/commit/0cdc4f33c98cc16f5a302f2ca46a93434165bfd3))
 
 
 ### Features
 
-* **YouTube - Translations:** Update `Italian` ([#178](https://github.com/anddea/revanced-patches/issues/178)) ([73da0b9](https://github.com/anddea/revanced-patches/commit/73da0b927d1ced92b7bf070b1fbecc602d3c485b))
-* **YouTube - Translations:** Update `Korean` ([#175](https://github.com/anddea/revanced-patches/issues/175)) ([8299e54](https://github.com/anddea/revanced-patches/commit/8299e5404b4ee889a3050511d9a52fa4c98f332e))
-* **YouTube - Translations:** Update Japanese ([#176](https://github.com/anddea/revanced-patches/issues/176)) ([4218359](https://github.com/anddea/revanced-patches/commit/4218359d8dd89fcf5340ee9bf62d3fcba5ed8f38))
+* **YouTube - Spoof client:** Add `Show in Stats for nerds` setting ([b287a61](https://github.com/anddea/revanced-patches/commit/b287a61e480027689ea2ef792a84dcf1c9b002ab))
+* **YouTube - Spoof client:** Selectively spoof client for general video / livestreams / Shorts / fallback (unplayable video) ([d92de62](https://github.com/anddea/revanced-patches/commit/d92de62fc05ba4df1343ddf270e78bd3f4e53e58))
+* **YouTube Music:** Add support versions `7.02.52` ~ `7.03.51` ([40df716](https://github.com/anddea/revanced-patches/commit/40df7164f7e465d03744b3a7e24fd8f9f1ac3584))
+* **YouTube:** Remove `Spoof format stream data` patch ([35aeec3](https://github.com/anddea/revanced-patches/commit/35aeec3e12c8adb64dcfe1396980b9722cf4ccaa))
 
-# [2.223.0-dev.10](https://github.com/anddea/revanced-patches/compare/v2.223.0-dev.9...v2.223.0-dev.10) (2024-03-26)
-
-
-### Features
-
-* **YouTube - Translations:** Update `Polish` ([#172](https://github.com/anddea/revanced-patches/issues/172)) ([55ab0cd](https://github.com/anddea/revanced-patches/commit/55ab0cd93c7b9e194cda511a61c6c71ef0d6aed3))
-
-# [2.223.0-dev.9](https://github.com/anddea/revanced-patches/compare/v2.223.0-dev.8...v2.223.0-dev.9) (2024-03-26)
-
-
-### Features
-
-* **YouTube - Translations:** Update `Korean` ([#169](https://github.com/anddea/revanced-patches/issues/169)) ([44d5504](https://github.com/anddea/revanced-patches/commit/44d5504de6e4d5a86e8b9f512a07a4936d7d71a4))
-* **YouTube - Translations:** Update `Spanish` ([#171](https://github.com/anddea/revanced-patches/issues/171)) ([c5e6b74](https://github.com/anddea/revanced-patches/commit/c5e6b74a838f75889b2258a7669c49476afef67d))
-* **YouTube - Translations:** Update `Ukrainian` ([#167](https://github.com/anddea/revanced-patches/issues/167)) ([398abbc](https://github.com/anddea/revanced-patches/commit/398abbc0e408dabb39120111b3a1104e16be8115))
-
-# [2.223.0-dev.8](https://github.com/anddea/revanced-patches/compare/v2.223.0-dev.7...v2.223.0-dev.8) (2024-03-26)
-
-
-### Features
-
-* **YouTube - Translations:** Update `Japanese` ([#164](https://github.com/anddea/revanced-patches/issues/164)) ([96ba623](https://github.com/anddea/revanced-patches/commit/96ba62317099e94467091bfa3c5c9c3c42c06e8a))
-
-# [2.223.0-dev.7](https://github.com/anddea/revanced-patches/compare/v2.223.0-dev.6...v2.223.0-dev.7) (2024-03-26)
+# [2.225.0](https://github.com/anddea/revanced-patches/compare/v2.224.0...v2.225.0) (2024-05-29)
 
 
 ### Bug Fixes
 
-* **YouTube - Hide player buttons background:** Update missing supported versions ([57af802](https://github.com/anddea/revanced-patches/commit/57af802e113269bb931cc9b04b651cfd257cec70))
+* Patching failed because of RVX CLI incompatibility ([922d364](https://github.com/anddea/revanced-patches/commit/922d36408b74dc7f9b085e656564df9f01a406ab))
+* **Reddit - Hide toolbar button:** Latest version support information ([#378](https://github.com/anddea/revanced-patches/issues/378)) ([0c0752d](https://github.com/anddea/revanced-patches/commit/0c0752d6df50549578dcd0b3ea5c0288e8a6d8d0))
+* **YouTube - Custom Branding Icon:** Add missing strings to prevent patch failure ([84e2cb5](https://github.com/anddea/revanced-patches/commit/84e2cb52c250fb6c2fb69bc3a0462ca880a8c9a5))
+* **YouTube - Default video quality:** Fix `Skip preloaded buffer` ([fb54626](https://github.com/anddea/revanced-patches/commit/fb54626ee6c0d7b7033b796b5317f0abdd299893))
+* **YouTube - Disable splash animation:** Did not work on YouTube v19.17.41+ ([d2182be](https://github.com/anddea/revanced-patches/commit/d2182be8e8feeb2640fe9aea1e90b7a265aa0d3b))
+* **YouTube - Hide ads:** `Hide ads` patch does not work on YouTube 18.29.38 ([c150ab2](https://github.com/anddea/revanced-patches/commit/c150ab2be85aa56de28cbff9f32eed2a69fa8688))
+* **YouTube - Hide Shorts components:** Exclude `Hide sound metadata label` and `Hide video link label` from `Hide info panel` ([4f5bdcc](https://github.com/anddea/revanced-patches/commit/4f5bdccacee834782525fdcc9367ed39106fa4a8))
+* **YouTube - Return YouTube Dislike:** Dislike count sometimes not shown in Shorts ([d821384](https://github.com/anddea/revanced-patches/commit/d82138474e4a544deb5fc37ddd77b87e35b14bbe))
+* **YouTube - Return YouTube Dislike:** Fix some RYD issues ([32d6c25](https://github.com/anddea/revanced-patches/commit/32d6c254ffffbc8b09bbf45890cd39488f396123))
+* **YouTube - Settings Custom Name:** Fix resource files not found ([#416](https://github.com/anddea/revanced-patches/issues/416)) ([cc4566a](https://github.com/anddea/revanced-patches/commit/cc4566a5499ce7fbe95c82d4c5d27e12fc671c1b))
+* **YouTube - SponsorBlock:** `Submit a new segment` button didn't work ([c7e39b3](https://github.com/anddea/revanced-patches/commit/c7e39b3312b4863085eddf6534736c40afd3691a))
+* **YouTube - Spoof format stream data:** Check audio tags first ([5589897](https://github.com/anddea/revanced-patches/commit/5589897793d6a6f7e34980ed9b32d051267af48d))
+* **YouTube - Spoof format stream data:** Incorrect url is used ([928b459](https://github.com/anddea/revanced-patches/commit/928b459fbd98ed5cc3b63260caef268c882f50a9))
+* **YouTube - Spoof format stream data:** Some Uris are not hooked ([e682654](https://github.com/anddea/revanced-patches/commit/e6826546533a2c1adb767b29875663291362fab0))
+* **YouTube - Spoof test client:** Spoofing does not work correctly when the `Spoof app version` setting is turned on ([33292a0](https://github.com/anddea/revanced-patches/commit/33292a07279602ab7f8e35fd9a23c5172a4b9b9a))
+* **Youtube - Tablet Miniplayer:** Broken controls ([#386](https://github.com/anddea/revanced-patches/issues/386)) ([1b60113](https://github.com/anddea/revanced-patches/commit/1b601130b5bcb3dfa03f590fbc512dbf6a4b841d))
+* **YouTube - Translations:** Remove duplicates caused error ([5e904c0](https://github.com/anddea/revanced-patches/commit/5e904c005cb881e8113eb7d41a87c7e738620eb6))
+* **YouTube - Video playback:** Default video quality does not apply to Shorts ([eb53500](https://github.com/anddea/revanced-patches/commit/eb53500fb6dc5f07bb36bb6abf531ee61545419f))
+* **YouTube Music - Hide ads:** `Hide fullscreen ads` setting also closes non-ad dialogs ([8d03e3f](https://github.com/anddea/revanced-patches/commit/8d03e3f99d40410def975db79761bfb00c56fa01))
+* **YouTube:** `Ambient mode control` patch does not work correctly on certain versions ([0f9f79e](https://github.com/anddea/revanced-patches/commit/0f9f79e5c4e7645ae9d788f92a966b59043b5c52))
+* **YouTube:** Fix app crashing for some people by reverting fix Shorts looping for some people ([a6f5dd5](https://github.com/anddea/revanced-patches/commit/a6f5dd5d997bd25c8bac130ed5135e57fc74bd9f))
+* **YouTube:** Separate `Hide info panels` and `Hide Shorts info panels` ([808d3fb](https://github.com/anddea/revanced-patches/commit/808d3fb89cb27a2d317be2d1f54933aef95b32dc))
+* **YouTube:** Speed toast showed fixed value on reset ([2aae719](https://github.com/anddea/revanced-patches/commit/2aae7197aa517f36f0d614b7b419382191d9f1e8))
+* **YT Music - Translations:** Use correct resource directory ([78667fa](https://github.com/anddea/revanced-patches/commit/78667fa54654fc68d26042c45cdbb9f5f0ccc187))
 
 
 ### Features
 
-* **YouTube - Translations:** Update `Italian` ([#163](https://github.com/anddea/revanced-patches/issues/163)) ([7cefd8e](https://github.com/anddea/revanced-patches/commit/7cefd8ec5b0348e4c3ddcdd1dadb7492afa8baed))
+* Refactor and match ReVanced and inotia ([5b4dca0](https://github.com/anddea/revanced-patches/commit/5b4dca03970f887f6caaf3da072ff77276754a61))
+* **YouTube - Collapse Button:** Hide collapse button margin ([#415](https://github.com/anddea/revanced-patches/issues/415)) ([6419978](https://github.com/anddea/revanced-patches/commit/6419978ce76fa48cbf157bf4a752af7c291a63c8))
+* **YouTube - Force snackbar theme:** Add options for corner radius, background and stroke colors ([eafb7b2](https://github.com/anddea/revanced-patches/commit/eafb7b222c2a39ff2a301a3975838e3e675529a8))
+* **YouTube - Fullscreen components:** `Hide related videos in quick actions` setting has been merged into the `Hide related video overlay` setting ([bdcee27](https://github.com/anddea/revanced-patches/commit/bdcee27c001b3e738c7c7c7dde3c7c5888be14d7))
+* **YouTube - Hide layout components:** Add `Hide videos based on duration` ([ebd6955](https://github.com/anddea/revanced-patches/commit/ebd69550544d5446bdd98a4257912bd18ec478ef))
+* **YouTube - Hide layout components:** Add an option to hide videos with views greater than specified value ([98c2f99](https://github.com/anddea/revanced-patches/commit/98c2f9942dd03f48aee00013307533430306152f))
+* **YouTube - Hide shorts components:** Add separate option to hide in player ([7b60297](https://github.com/anddea/revanced-patches/commit/7b60297b0ed5096a9f7533837691d96df4809630))
+* **YouTube - Hide shorts components:** Hide comments button if disabled or with label "0" ([299e20b](https://github.com/anddea/revanced-patches/commit/299e20b774408d6f8ec9dc3c6e4274cf43db0bc5))
+* **YouTube - Overlay buttons:** Add `Rounded` (old curvy) buttons ([73ab950](https://github.com/anddea/revanced-patches/commit/73ab950ce251e673860826cf32239c451de64122))
+* **YouTube - Overlay buttons:** Add `Whitelist` overlay button ([358af9e](https://github.com/anddea/revanced-patches/commit/358af9ee3914bb6912c8f56934cc0d8418a52ce8))
+* **YouTube - Player components:** Add setting toggle for `Hide suggested video end screen` ([f4a9c22](https://github.com/anddea/revanced-patches/commit/f4a9c221e128e399e9667b3474d542b84ba9252e))
+* **YouTube - Settings:** Add custom name for Extended preference ([#389](https://github.com/anddea/revanced-patches/issues/389)) ([8804b92](https://github.com/anddea/revanced-patches/commit/8804b924ac5db841e458e62cfe69be8424e3b968))
+* **YouTube - Settings:** Add search bar for settings ([85cf0c0](https://github.com/anddea/revanced-patches/commit/85cf0c016a20b4fb67c0a7aa1176fdce87d3ad48))
+* **YouTube - Spoof format stream data:** improve hook method, fetch to `ANDROID_TESTSUITE` client ([5a066dd](https://github.com/anddea/revanced-patches/commit/5a066ddafcfa459e5b2870bf4f307292e490a070))
+* **YouTube - Toolbar components:** Remove `Hide trending searches` setting ([5d2e732](https://github.com/anddea/revanced-patches/commit/5d2e732b20f19fb95b9f91fe9d3409395543586c))
+* **YouTube - Translations:** Add compile time option to select app languages ([6356ddc](https://github.com/anddea/revanced-patches/commit/6356ddc5d082c17f39b4f5cf92c2a31a5295aeed))
+* **YouTube - Translations:** Add compile time option to select custom language file ([a65679e](https://github.com/anddea/revanced-patches/commit/a65679e2c345065b7fa96fa62f0901085cd3472d))
+* **YouTube - Translations:** Add compile time option to select languages ([046a05e](https://github.com/anddea/revanced-patches/commit/046a05e5697b8a7f531e709803e9cb5709e5bbc3))
+* **YouTube - Translations:** Update `Chinese Simplified` ([#471](https://github.com/anddea/revanced-patches/issues/471)) ([eb2fe8e](https://github.com/anddea/revanced-patches/commit/eb2fe8ec894ec6d0397ad06bbe7ad71f554dafcd))
+* **YouTube - Translations:** Update `Chinese Simplified` ([#492](https://github.com/anddea/revanced-patches/issues/492)) ([e1113d9](https://github.com/anddea/revanced-patches/commit/e1113d91cc8af769988fc3a8c2df3062b06a7f3b))
+* **YouTube - Translations:** Update `Chinese Simplified` ([#503](https://github.com/anddea/revanced-patches/issues/503)) ([ee4324b](https://github.com/anddea/revanced-patches/commit/ee4324bf39dfd2eca62044461cb3d7e845ab17d7))
+* **YouTube - Translations:** Update `Chinese Traditional` ([#501](https://github.com/anddea/revanced-patches/issues/501)) ([0167c5d](https://github.com/anddea/revanced-patches/commit/0167c5d01d5974af16fc4d2a3fe3a5d0f3a5018d))
+* **YouTube - Translations:** Update `Greek` ([#374](https://github.com/anddea/revanced-patches/issues/374)) ([5af0858](https://github.com/anddea/revanced-patches/commit/5af085861592182d23cfe5a451a41a5b70e9f908))
+* **YouTube - Translations:** Update `Japanese` ([#457](https://github.com/anddea/revanced-patches/issues/457)) ([b993a5d](https://github.com/anddea/revanced-patches/commit/b993a5dc39380bb54e1b1dcac76cb94a2fa58394))
+* **YouTube - Translations:** Update `Japanese` ([#467](https://github.com/anddea/revanced-patches/issues/467)) ([860073b](https://github.com/anddea/revanced-patches/commit/860073b48384dfcbedaf8de7e4f36261fa3e436f))
+* **YouTube - Translations:** Update `Japanese` ([#504](https://github.com/anddea/revanced-patches/issues/504)) ([39a1863](https://github.com/anddea/revanced-patches/commit/39a1863cedbdc700fb70b38dd1e04475c539fdee))
+* **YouTube - Translations:** Update `Korean` ([#464](https://github.com/anddea/revanced-patches/issues/464)) ([0770f09](https://github.com/anddea/revanced-patches/commit/0770f0944be9cc6bf26cd1218e056dade2990b83))
+* **YouTube - Translations:** Update `Spanish` ([#436](https://github.com/anddea/revanced-patches/issues/436)) ([6e384d3](https://github.com/anddea/revanced-patches/commit/6e384d39ea8472b8f103045bb93f7e7bba80c668))
+* **YouTube - Translations:** Update `Ukrainian` ([#400](https://github.com/anddea/revanced-patches/issues/400)) ([67c2895](https://github.com/anddea/revanced-patches/commit/67c289576459971d004e1cbb2d2b773918895d73))
+* **YouTube - Translations:** Update `Ukrainian` ([#474](https://github.com/anddea/revanced-patches/issues/474)) ([70d9386](https://github.com/anddea/revanced-patches/commit/70d9386b3eb1a4774f9f3f2f394d3d02d29bea90))
+* **YouTube - Translations:** Update `Ukrainian` ([#499](https://github.com/anddea/revanced-patches/issues/499)) ([2ec3c02](https://github.com/anddea/revanced-patches/commit/2ec3c02a4fd9a5280f621bfd065be53fe79a0a17))
+* **YouTube - VIsual preferences icons:** Add icons to `Player buttons` ([a07b8ec](https://github.com/anddea/revanced-patches/commit/a07b8ecd1184cc54d5c8bb0ae316496e62b27a42))
+* **YouTube - Visual preferences icons:** Added more icons ([9dd62ce](https://github.com/anddea/revanced-patches/commit/9dd62ceacaeca8ab1b0b7c7c221e2cebc19a563f))
+* **YouTube Music - Player components:** Add `Enable black player background` settings ([c91be5a](https://github.com/anddea/revanced-patches/commit/c91be5a30b99bd46638f8a179c835c89e5c67a1f))
+* **YouTube Music - Player components:** Add `Hide audio video switch toggle` setting ([9611f38](https://github.com/anddea/revanced-patches/commit/9611f38db290099f041eefe33896c423e1a1fecc))
+* **YouTube Music:** Add support versions `7.01.53` - `7.02.51` ([71019ab](https://github.com/anddea/revanced-patches/commit/71019abba8c66f323b4cc948364bfa2a8d4c7fc8))
+* **YouTube:** Add `Force disable Shorts dim` ([8a529ff](https://github.com/anddea/revanced-patches/commit/8a529ffe2efea270348d27d8c1970b02c12adea5))
+* **YouTube:** Add `Force snackbar theme` ([2606187](https://github.com/anddea/revanced-patches/commit/2606187a0dca6fa3390a4d66931d70c927e893c9))
+* **YouTube:** Add `Spoof client` patch ([5161192](https://github.com/anddea/revanced-patches/commit/5161192ba2fbd3b25e081e573bf4428ec0d1b6c1))
+* **YouTube:** Add support versions `19.19.39` - `19.20.34` ([ee43c3e](https://github.com/anddea/revanced-patches/commit/ee43c3e25e1926e9963b9866bdb0c9e8bfe00a42))
+* **YouTube:** Hide live chat replay button/label in fullscreen ([0cd9b96](https://github.com/anddea/revanced-patches/commit/0cd9b96c70a1eb5e17d9b3ee6ca81ce313a89eee))
+* **YouTube:** Missing patches in the new RVX code ([#488](https://github.com/anddea/revanced-patches/issues/488)) ([3106111](https://github.com/anddea/revanced-patches/commit/310611110a198b7126b5f8037ccddbface263dc3))
+* **YouTube:** Remove `Spoof test client` patch ([379e2ed](https://github.com/anddea/revanced-patches/commit/379e2ed903c537b674257251d71a132606ebf6b5))
+* **YT Music - Translations:** Add compile time options to select custom language, RVX and app languages ([074d3e2](https://github.com/anddea/revanced-patches/commit/074d3e22c3a16e5c71ea6c7d514bfc11b4576406))
 
-# [2.223.0-dev.6](https://github.com/anddea/revanced-patches/compare/v2.223.0-dev.5...v2.223.0-dev.6) (2024-03-26)
 
+### Reverts
 
-### Features
+* default landscape mode timeout ([0d91401](https://github.com/anddea/revanced-patches/commit/0d914015accf4ef8a8d98fc607aead33620460ff))
 
-* **YouTube - Translations:** Update `Italian` ([#161](https://github.com/anddea/revanced-patches/issues/161)) ([a356939](https://github.com/anddea/revanced-patches/commit/a35693951910a7a656a28c87f5b6ab37ceaaca83))
-
-# [2.223.0-dev.5](https://github.com/anddea/revanced-patches/compare/v2.223.0-dev.4...v2.223.0-dev.5) (2024-03-26)
+# [2.225.0-dev.25](https://github.com/anddea/revanced-patches/compare/v2.225.0-dev.24...v2.225.0-dev.25) (2024-05-28)
 
 
 ### Bug Fixes
 
-* **YouTube - Translations:** Update translations info ([8684f37](https://github.com/anddea/revanced-patches/commit/8684f37b45742859f8bedce1a511eb0977c12f48))
+* **YouTube - Translations:** Remove duplicates caused error ([5e904c0](https://github.com/anddea/revanced-patches/commit/5e904c005cb881e8113eb7d41a87c7e738620eb6))
 
-# [2.223.0-dev.4](https://github.com/anddea/revanced-patches/compare/v2.223.0-dev.3...v2.223.0-dev.4) (2024-03-26)
-
-
-### Features
-
-* **MicroG Support:** Switch to GMSCore ([f1f522f](https://github.com/anddea/revanced-patches/commit/f1f522f6f9c0da44ec92bce3d7fdd4fbe74c248f))
-* **YouTube - Hide player buttons baclground:** Add a switch setting `Hide player buttons background` ([5271610](https://github.com/anddea/revanced-patches/commit/5271610584128963d13556a61f6db88d8f10e117))
-* **YouTube - Settings:** Add new settings for Shorts and Player buttons background ([f0a2e69](https://github.com/anddea/revanced-patches/commit/f0a2e6928887baea4e9722d13d6dc6313b6f9d96))
-* **YouTube - Translations:** Update `Italian` ([#157](https://github.com/anddea/revanced-patches/issues/157)) ([4648253](https://github.com/anddea/revanced-patches/commit/4648253b54357835ed3f2ee657c22abee037c7ea))
-* **YouTube - Translations:** Update `Japanese` ([#149](https://github.com/anddea/revanced-patches/issues/149)) ([4497b8d](https://github.com/anddea/revanced-patches/commit/4497b8d4c0812b3af49888c51f0a72ec05b213ec))
-* **YouTube - Translations:** Update `Russian` ([#156](https://github.com/anddea/revanced-patches/issues/156)) ([1f447ad](https://github.com/anddea/revanced-patches/commit/1f447ad6919a031c36b1500b8d7c5ffbe7a76bfb))
-* **YouTube - Translations:** Update `Ukrainian` ([#146](https://github.com/anddea/revanced-patches/issues/146)) ([5af8f4e](https://github.com/anddea/revanced-patches/commit/5af8f4e678814e3003dfb5ae21b1594526b79b00))
-
-# [2.223.0-dev.3](https://github.com/anddea/revanced-patches/compare/v2.223.0-dev.2...v2.223.0-dev.3) (2024-03-25)
+# [2.225.0-dev.24](https://github.com/anddea/revanced-patches/compare/v2.225.0-dev.23...v2.225.0-dev.24) (2024-05-28)
 
 
 ### Bug Fixes
 
-* **YouTube - Overlay buttons:** Increase padding of chapter and timestamp ([e3db3e3](https://github.com/anddea/revanced-patches/commit/e3db3e387ce5e48f915fceb0e2a8db983c41b5a3))
-* **YouTube - Translations:** Update translations info ([e8f0731](https://github.com/anddea/revanced-patches/commit/e8f0731832658bd7b12a0909e96dece3c498f27b))
+* **YouTube - Disable splash animation:** Did not work on YouTube v19.17.41+ ([d2182be](https://github.com/anddea/revanced-patches/commit/d2182be8e8feeb2640fe9aea1e90b7a265aa0d3b))
+* **YouTube - SponsorBlock:** `Submit a new segment` button didn't work ([c7e39b3](https://github.com/anddea/revanced-patches/commit/c7e39b3312b4863085eddf6534736c40afd3691a))
 
 
 ### Features
 
-* **YouTube - Layout component filter:** Hide videos based on the number of views ([23fa805](https://github.com/anddea/revanced-patches/commit/23fa805416ccaed1934d05105d89bec74341d09c))
+* **YouTube - Player components:** Add setting toggle for `Hide suggested video end screen` ([f4a9c22](https://github.com/anddea/revanced-patches/commit/f4a9c221e128e399e9667b3474d542b84ba9252e))
+* **YouTube Music - Player components:** Add `Enable black player background` settings ([c91be5a](https://github.com/anddea/revanced-patches/commit/c91be5a30b99bd46638f8a179c835c89e5c67a1f))
 
-# [2.223.0-dev.2](https://github.com/anddea/revanced-patches/compare/v2.223.0-dev.1...v2.223.0-dev.2) (2024-03-25)
+# [2.225.0-dev.23](https://github.com/anddea/revanced-patches/compare/v2.225.0-dev.22...v2.225.0-dev.23) (2024-05-27)
 
 
 ### Bug Fixes
 
-* **YouTube - Translations:** Update translations info ([36b1ed4](https://github.com/anddea/revanced-patches/commit/36b1ed4333cd2ed623eaa1666b7138d37048a9e3))
-* **YT Music - Custom branding icon:** Fix some icons and add Welcome screen logo ([9abf946](https://github.com/anddea/revanced-patches/commit/9abf94624e853e091dd82c9b0bbb71380b5e90ad))
+* **YT Music - Translations:** Use correct resource directory ([78667fa](https://github.com/anddea/revanced-patches/commit/78667fa54654fc68d26042c45cdbb9f5f0ccc187))
 
-# [2.223.0-dev.1](https://github.com/anddea/revanced-patches/compare/v2.222.0...v2.223.0-dev.1) (2024-03-25)
+# [2.225.0-dev.22](https://github.com/anddea/revanced-patches/compare/v2.225.0-dev.21...v2.225.0-dev.22) (2024-05-27)
+
+
+### Features
+
+* **YouTube - Fullscreen components:** `Hide related videos in quick actions` setting has been merged into the `Hide related video overlay` setting ([bdcee27](https://github.com/anddea/revanced-patches/commit/bdcee27c001b3e738c7c7c7dde3c7c5888be14d7))
+* **YouTube - Overlay buttons:** Add `Whitelist` overlay button ([358af9e](https://github.com/anddea/revanced-patches/commit/358af9ee3914bb6912c8f56934cc0d8418a52ce8))
+* **YouTube - Toolbar components:** Remove `Hide trending searches` setting ([5d2e732](https://github.com/anddea/revanced-patches/commit/5d2e732b20f19fb95b9f91fe9d3409395543586c))
+* **YouTube Music:** Add support versions `7.01.53` - `7.02.51` ([71019ab](https://github.com/anddea/revanced-patches/commit/71019abba8c66f323b4cc948364bfa2a8d4c7fc8))
+* **YouTube:** Add `Spoof client` patch ([5161192](https://github.com/anddea/revanced-patches/commit/5161192ba2fbd3b25e081e573bf4428ec0d1b6c1))
+* **YouTube:** Add support versions `19.19.39` - `19.20.34` ([ee43c3e](https://github.com/anddea/revanced-patches/commit/ee43c3e25e1926e9963b9866bdb0c9e8bfe00a42))
+* **YouTube:** Remove `Spoof test client` patch ([379e2ed](https://github.com/anddea/revanced-patches/commit/379e2ed903c537b674257251d71a132606ebf6b5))
+
+# [2.225.0-dev.21](https://github.com/anddea/revanced-patches/compare/v2.225.0-dev.20...v2.225.0-dev.21) (2024-05-21)
+
+
+### Features
+
+* **YouTube - Translations:** Update `Chinese Simplified` ([#503](https://github.com/anddea/revanced-patches/issues/503)) ([ee4324b](https://github.com/anddea/revanced-patches/commit/ee4324bf39dfd2eca62044461cb3d7e845ab17d7))
+* **YouTube - Translations:** Update `Chinese Traditional` ([#501](https://github.com/anddea/revanced-patches/issues/501)) ([0167c5d](https://github.com/anddea/revanced-patches/commit/0167c5d01d5974af16fc4d2a3fe3a5d0f3a5018d))
+* **YouTube - Translations:** Update `Japanese` ([#504](https://github.com/anddea/revanced-patches/issues/504)) ([39a1863](https://github.com/anddea/revanced-patches/commit/39a1863cedbdc700fb70b38dd1e04475c539fdee))
+
+# [2.225.0-dev.20](https://github.com/anddea/revanced-patches/compare/v2.225.0-dev.19...v2.225.0-dev.20) (2024-05-20)
+
+
+### Features
+
+* **YouTube:** Missing patches in the new RVX code ([#488](https://github.com/anddea/revanced-patches/issues/488)) ([3106111](https://github.com/anddea/revanced-patches/commit/310611110a198b7126b5f8037ccddbface263dc3))
+
+# [2.225.0-dev.19](https://github.com/anddea/revanced-patches/compare/v2.225.0-dev.18...v2.225.0-dev.19) (2024-05-20)
+
+
+### Features
+
+* **YouTube - Translations:** Update `Ukrainian` ([#499](https://github.com/anddea/revanced-patches/issues/499)) ([2ec3c02](https://github.com/anddea/revanced-patches/commit/2ec3c02a4fd9a5280f621bfd065be53fe79a0a17))
+
+# [2.225.0-dev.18](https://github.com/anddea/revanced-patches/compare/v2.225.0-dev.17...v2.225.0-dev.18) (2024-05-20)
+
+
+### Features
+
+* **YouTube - Settings:** Add search bar for settings ([85cf0c0](https://github.com/anddea/revanced-patches/commit/85cf0c016a20b4fb67c0a7aa1176fdce87d3ad48))
+
+
+### Reverts
+
+* default landscape mode timeout ([0d91401](https://github.com/anddea/revanced-patches/commit/0d914015accf4ef8a8d98fc607aead33620460ff))
+
+# [2.225.0-dev.17](https://github.com/anddea/revanced-patches/compare/v2.225.0-dev.16...v2.225.0-dev.17) (2024-05-19)
+
+
+### Features
+
+* **YouTube - Translations:** Update `Chinese Simplified` ([#492](https://github.com/anddea/revanced-patches/issues/492)) ([e1113d9](https://github.com/anddea/revanced-patches/commit/e1113d91cc8af769988fc3a8c2df3062b06a7f3b))
+
+# [2.225.0-dev.16](https://github.com/anddea/revanced-patches/compare/v2.225.0-dev.15...v2.225.0-dev.16) (2024-05-18)
 
 
 ### Bug Fixes
 
-* **YouTube - Change player flyout panel toggles:** Fix for supported versions ([a9fe961](https://github.com/anddea/revanced-patches/commit/a9fe961d9c8a9bce66c2c42e37a55a592411b516))
-* **YouTube - Shorts overlay buttons:** Resize icons ([e348565](https://github.com/anddea/revanced-patches/commit/e348565caaa352e4004910d87e43fb612907ae21))
-* **YouTube - Swipe controls:** Fix some strings ([074e3e4](https://github.com/anddea/revanced-patches/commit/074e3e419731c075ca9bffa73f43a256316c3684))
-* **YouTube - Translations:** Update translations info ([12982f4](https://github.com/anddea/revanced-patches/commit/12982f423660b3e9289d04bb0666249b737d2ee9))
-* **YouTube - Translations:** Update translations info ([25ce0a9](https://github.com/anddea/revanced-patches/commit/25ce0a988e2601bf4b61cbd5b1c85bd7f6951ddb))
-* **YouTube - Translations:** Update translations info ([302ffd6](https://github.com/anddea/revanced-patches/commit/302ffd6b9d0f2b4b5f359dff5fcb769db290413f))
-* **YouTube - Translations:** Update translations info ([9babfd9](https://github.com/anddea/revanced-patches/commit/9babfd978e650742a52e5efa4d4189656ff5fdd5))
-* **YouTube - Translations:** Update translations info ([56ad720](https://github.com/anddea/revanced-patches/commit/56ad7205e68ea875a0bef99312d99d1a8d4a2834))
-* **YouTube - Translations:** Update translations info ([17a514e](https://github.com/anddea/revanced-patches/commit/17a514ea90d921a269e957ab3cca1da5b742c26f))
-* **YouTube - Translations:** Update translations info ([c30c031](https://github.com/anddea/revanced-patches/commit/c30c031efea8cf27fae23ad77c45fc4c278f7a94))
-* **YouTube/YT Music - Debugging:** Disable by default ([241b6dd](https://github.com/anddea/revanced-patches/commit/241b6dd8c53ee0bbbceaea363851933d11441be6))
-* **YouTube:** Adjusting patches to apply correctly to earlier versions. ([#94](https://github.com/anddea/revanced-patches/issues/94)) ([cb02ba7](https://github.com/anddea/revanced-patches/commit/cb02ba71f5af061a17183540537966e9ccef9332))
+* **YouTube - Custom Branding Icon:** Add missing strings to prevent patch failure ([84e2cb5](https://github.com/anddea/revanced-patches/commit/84e2cb52c250fb6c2fb69bc3a0462ca880a8c9a5))
+
+# [2.225.0-dev.15](https://github.com/anddea/revanced-patches/compare/v2.225.0-dev.14...v2.225.0-dev.15) (2024-05-17)
 
 
 ### Features
 
-* **YouTube - Hide layout components:** Add `Subscriptions` tab and `Comments` to `Keyword filter` ([bbc3217](https://github.com/anddea/revanced-patches/commit/bbc32170b6bf2d94f43ad4782fe27960fa4caf53))
-* **YouTube - Speed overlay:** Change the speed overlay icon and fix patch for applying to earlier versions ([#92](https://github.com/anddea/revanced-patches/issues/92)) ([d547cda](https://github.com/anddea/revanced-patches/commit/d547cda236fc6d97387e5e6422b3a3a787046a2c))
-* **YouTube - Translations:** Update `Brazillian Portuguese` ([#85](https://github.com/anddea/revanced-patches/issues/85)) ([12ee1e1](https://github.com/anddea/revanced-patches/commit/12ee1e18f03351e551f68c5e0099f7f73208a85e))
-* **YouTube - Translations:** Update `Italian` ([#102](https://github.com/anddea/revanced-patches/issues/102)) ([580883c](https://github.com/anddea/revanced-patches/commit/580883cec8f46e3e0be25995abe575d69739fb2a))
-* **YouTube - Translations:** Update `Italian` ([#115](https://github.com/anddea/revanced-patches/issues/115)) ([31218ed](https://github.com/anddea/revanced-patches/commit/31218ed20367504808ceb061d908f88696cfeafb))
-* **YouTube - Translations:** Update `Italian` ([#119](https://github.com/anddea/revanced-patches/issues/119)) ([148a03e](https://github.com/anddea/revanced-patches/commit/148a03e8d867484450fd141467673c3808ec0e12))
-* **YouTube - Translations:** Update `Italian` ([#123](https://github.com/anddea/revanced-patches/issues/123)) ([73fae53](https://github.com/anddea/revanced-patches/commit/73fae530cd31c630844a0ad2a079756604ef777d))
-* **YouTube - Translations:** Update `Japanese` ([#107](https://github.com/anddea/revanced-patches/issues/107)) ([cc87b2d](https://github.com/anddea/revanced-patches/commit/cc87b2db4053adfa583ee75ce88f642e2804fc8c))
-* **YouTube - Translations:** Update `Japanese` ([#113](https://github.com/anddea/revanced-patches/issues/113)) ([8f2be3a](https://github.com/anddea/revanced-patches/commit/8f2be3af048df72146d81574515f1cd7650cc5df))
-* **YouTube - Translations:** Update `Japanese` ([#141](https://github.com/anddea/revanced-patches/issues/141)) ([0b8af4d](https://github.com/anddea/revanced-patches/commit/0b8af4d1c0a172d6c3521d09d994f8110faade36))
-* **YouTube - Translations:** Update `Japanese` ([#81](https://github.com/anddea/revanced-patches/issues/81)) ([5191bbe](https://github.com/anddea/revanced-patches/commit/5191bbe6777e11b1d823cdeb004423583259a9e2))
-* **YouTube - Translations:** Update `Japanese` ([#89](https://github.com/anddea/revanced-patches/issues/89)) ([f8b40f8](https://github.com/anddea/revanced-patches/commit/f8b40f81bdac3c1bd7e3d3fee94864b0da7656fd))
-* **YouTube - Translations:** Update `Korean` ([8b11f6a](https://github.com/anddea/revanced-patches/commit/8b11f6a698100b1e1d6ef83b0e6eccb36470ba35))
-* **YouTube - Translations:** Update `Korean` ([#108](https://github.com/anddea/revanced-patches/issues/108)) ([f29bfa5](https://github.com/anddea/revanced-patches/commit/f29bfa5cb8ed43ce66f3d9b3c1e5abfd74872461))
-* **YouTube - Translations:** Update `Korean` ([#116](https://github.com/anddea/revanced-patches/issues/116)) ([54516c1](https://github.com/anddea/revanced-patches/commit/54516c1275869cc589a93f3e0b8961c0cc040a48))
-* **YouTube - Translations:** Update `Korean` ([#120](https://github.com/anddea/revanced-patches/issues/120)) ([73e6139](https://github.com/anddea/revanced-patches/commit/73e61391df4a13e7cdbe7528154b624a12d8ebaa))
-* **YouTube - Translations:** Update `Polish` ([#135](https://github.com/anddea/revanced-patches/issues/135)) ([e2d1724](https://github.com/anddea/revanced-patches/commit/e2d1724272e79f22882eed9992c9deffca66f8c2))
-* **YouTube - Translations:** Update `Russian` ([#95](https://github.com/anddea/revanced-patches/issues/95)) ([a00a7b6](https://github.com/anddea/revanced-patches/commit/a00a7b6646c0f75968d683dc224e437debbc1c8d))
-* **YouTube - Translations:** Update `Spanish` ([#117](https://github.com/anddea/revanced-patches/issues/117)) ([18f5ac3](https://github.com/anddea/revanced-patches/commit/18f5ac3eb201f6493ff7467ef026c0b63c882df4))
-* **YouTube - Translations:** Update `Spanish` ([#79](https://github.com/anddea/revanced-patches/issues/79)) ([1c3731d](https://github.com/anddea/revanced-patches/commit/1c3731dc8c38b9233fb5fdca804560ff30c15c8b))
-* **YouTube - Translations:** Update `Ukrainian` ([ac81500](https://github.com/anddea/revanced-patches/commit/ac81500024cc0794cc52dc5c1da5367aeff45764))
-* **YouTube - Translation:** Update `Italian` ([#73](https://github.com/anddea/revanced-patches/issues/73)) ([ee9f012](https://github.com/anddea/revanced-patches/commit/ee9f012e180acfd7d3ffedee37e3b73b2743295a)), closes [#71](https://github.com/anddea/revanced-patches/issues/71)
-* **YouTube:** Bump support version `19.09.38` - `19.10.39` ([#96](https://github.com/anddea/revanced-patches/issues/96)) ([bd7cb77](https://github.com/anddea/revanced-patches/commit/bd7cb771d0529436b690428316ae89517a6ef435))
-* **YouTube:** Bump support version `19.11.38` ([#110](https://github.com/anddea/revanced-patches/issues/110)) ([99142d8](https://github.com/anddea/revanced-patches/commit/99142d89ca4d2e0735b130a504a4d4a394fde605))
-* **YT Music - Custom branding icon:** Add more options ([86ec325](https://github.com/anddea/revanced-patches/commit/86ec3250cdd5ad40837067923b1eb5ef69f4e37e))
-* **YT Music:** Bump new versions ([1fbaeef](https://github.com/anddea/revanced-patches/commit/1fbaeef5cf21ce8b914c8c4cf49a33f1e23abbd9))
+* **YouTube - Translations:** Add compile time option to select app languages ([6356ddc](https://github.com/anddea/revanced-patches/commit/6356ddc5d082c17f39b4f5cf92c2a31a5295aeed))
+* **YT Music - Translations:** Add compile time options to select custom language, RVX and app languages ([074d3e2](https://github.com/anddea/revanced-patches/commit/074d3e22c3a16e5c71ea6c7d514bfc11b4576406))
 
-# [2.222.0](https://github.com/anddea/revanced-patches/compare/v2.221.1...v2.222.0) (2024-03-23)
+# [2.225.0-dev.14](https://github.com/anddea/revanced-patches/compare/v2.225.0-dev.13...v2.225.0-dev.14) (2024-05-16)
 
 
 ### Features
 
-* Bump auto release ([2362fa5](https://github.com/anddea/revanced-patches/commit/2362fa56f46977cc99e294e9e2cd778d0639c3d8))
+* **YouTube - Translations:** Update `Ukrainian` ([#474](https://github.com/anddea/revanced-patches/issues/474)) ([70d9386](https://github.com/anddea/revanced-patches/commit/70d9386b3eb1a4774f9f3f2f394d3d02d29bea90))
 
-# [2.222.0-dev.10](https://github.com/anddea/revanced-patches/compare/v2.222.0-dev.9...v2.222.0-dev.10) (2024-03-23)
-
-
-### Features
-
-* **YouTube - Translations:** Update `Italian` ([#123](https://github.com/anddea/revanced-patches/issues/123)) ([73fae53](https://github.com/anddea/revanced-patches/commit/73fae530cd31c630844a0ad2a079756604ef777d))
-
-# [2.222.0-dev.9](https://github.com/anddea/revanced-patches/compare/v2.222.0-dev.8...v2.222.0-dev.9) (2024-03-23)
+# [2.225.0-dev.13](https://github.com/anddea/revanced-patches/compare/v2.225.0-dev.12...v2.225.0-dev.13) (2024-05-16)
 
 
 ### Bug Fixes
 
-* **YouTube - Shorts overlay buttons:** Resize icons ([e348565](https://github.com/anddea/revanced-patches/commit/e348565caaa352e4004910d87e43fb612907ae21))
-* **YouTube - Translations:** Update translations info ([12982f4](https://github.com/anddea/revanced-patches/commit/12982f423660b3e9289d04bb0666249b737d2ee9))
-* **YouTube - Translations:** Update translations info ([25ce0a9](https://github.com/anddea/revanced-patches/commit/25ce0a988e2601bf4b61cbd5b1c85bd7f6951ddb))
+* **YouTube:** Speed toast showed fixed value on reset ([2aae719](https://github.com/anddea/revanced-patches/commit/2aae7197aa517f36f0d614b7b419382191d9f1e8))
 
-
-### Features
-
-* **YouTube - Translations:** Update `Italian` ([#115](https://github.com/anddea/revanced-patches/issues/115)) ([31218ed](https://github.com/anddea/revanced-patches/commit/31218ed20367504808ceb061d908f88696cfeafb))
-* **YouTube - Translations:** Update `Italian` ([#119](https://github.com/anddea/revanced-patches/issues/119)) ([148a03e](https://github.com/anddea/revanced-patches/commit/148a03e8d867484450fd141467673c3808ec0e12))
-* **YouTube - Translations:** Update `Japanese` ([#113](https://github.com/anddea/revanced-patches/issues/113)) ([8f2be3a](https://github.com/anddea/revanced-patches/commit/8f2be3af048df72146d81574515f1cd7650cc5df))
-* **YouTube - Translations:** Update `Korean` ([#116](https://github.com/anddea/revanced-patches/issues/116)) ([54516c1](https://github.com/anddea/revanced-patches/commit/54516c1275869cc589a93f3e0b8961c0cc040a48))
-* **YouTube - Translations:** Update `Korean` ([#120](https://github.com/anddea/revanced-patches/issues/120)) ([73e6139](https://github.com/anddea/revanced-patches/commit/73e61391df4a13e7cdbe7528154b624a12d8ebaa))
-* **YouTube - Translations:** Update `Spanish` ([#117](https://github.com/anddea/revanced-patches/issues/117)) ([18f5ac3](https://github.com/anddea/revanced-patches/commit/18f5ac3eb201f6493ff7467ef026c0b63c882df4))
-* **YT Music - Custom branding icon:** Add more options ([86ec325](https://github.com/anddea/revanced-patches/commit/86ec3250cdd5ad40837067923b1eb5ef69f4e37e))
-
-# [2.222.0-dev.8](https://github.com/anddea/revanced-patches/compare/v2.222.0-dev.7...v2.222.0-dev.8) (2024-03-22)
+# [2.225.0-dev.12](https://github.com/anddea/revanced-patches/compare/v2.225.0-dev.11...v2.225.0-dev.12) (2024-05-16)
 
 
 ### Bug Fixes
 
-* **YouTube - Translations:** Update translations info ([302ffd6](https://github.com/anddea/revanced-patches/commit/302ffd6b9d0f2b4b5f359dff5fcb769db290413f))
+* **YouTube - Hide ads:** `Hide ads` patch does not work on YouTube 18.29.38 ([c150ab2](https://github.com/anddea/revanced-patches/commit/c150ab2be85aa56de28cbff9f32eed2a69fa8688))
+* **YouTube - Return YouTube Dislike:** Dislike count sometimes not shown in Shorts ([d821384](https://github.com/anddea/revanced-patches/commit/d82138474e4a544deb5fc37ddd77b87e35b14bbe))
+* **YouTube - Spoof format stream data:** Check audio tags first ([5589897](https://github.com/anddea/revanced-patches/commit/5589897793d6a6f7e34980ed9b32d051267af48d))
+* **YouTube - Spoof format stream data:** Incorrect url is used ([928b459](https://github.com/anddea/revanced-patches/commit/928b459fbd98ed5cc3b63260caef268c882f50a9))
+* **YouTube - Spoof format stream data:** Some Uris are not hooked ([e682654](https://github.com/anddea/revanced-patches/commit/e6826546533a2c1adb767b29875663291362fab0))
+* **YouTube - Spoof test client:** Spoofing does not work correctly when the `Spoof app version` setting is turned on ([33292a0](https://github.com/anddea/revanced-patches/commit/33292a07279602ab7f8e35fd9a23c5172a4b9b9a))
+* **YouTube - Video playback:** Default video quality does not apply to Shorts ([eb53500](https://github.com/anddea/revanced-patches/commit/eb53500fb6dc5f07bb36bb6abf531ee61545419f))
+* **YouTube Music - Hide ads:** `Hide fullscreen ads` setting also closes non-ad dialogs ([8d03e3f](https://github.com/anddea/revanced-patches/commit/8d03e3f99d40410def975db79761bfb00c56fa01))
+* **YouTube:** `Ambient mode control` patch does not work correctly on certain versions ([0f9f79e](https://github.com/anddea/revanced-patches/commit/0f9f79e5c4e7645ae9d788f92a966b59043b5c52))
 
 
 ### Features
 
-* **YouTube - Translations:** Update `Italian` ([#102](https://github.com/anddea/revanced-patches/issues/102)) ([580883c](https://github.com/anddea/revanced-patches/commit/580883cec8f46e3e0be25995abe575d69739fb2a))
-* **YouTube - Translations:** Update `Japanese` ([#107](https://github.com/anddea/revanced-patches/issues/107)) ([cc87b2d](https://github.com/anddea/revanced-patches/commit/cc87b2db4053adfa583ee75ce88f642e2804fc8c))
-* **YouTube - Translations:** Update `Korean` ([#108](https://github.com/anddea/revanced-patches/issues/108)) ([f29bfa5](https://github.com/anddea/revanced-patches/commit/f29bfa5cb8ed43ce66f3d9b3c1e5abfd74872461))
-* **YouTube:** Bump support version `19.11.38` ([#110](https://github.com/anddea/revanced-patches/issues/110)) ([99142d8](https://github.com/anddea/revanced-patches/commit/99142d89ca4d2e0735b130a504a4d4a394fde605))
-* **YT Music:** Bump new versions ([1fbaeef](https://github.com/anddea/revanced-patches/commit/1fbaeef5cf21ce8b914c8c4cf49a33f1e23abbd9))
+* **YouTube - Spoof format stream data:** improve hook method, fetch to `ANDROID_TESTSUITE` client ([5a066dd](https://github.com/anddea/revanced-patches/commit/5a066ddafcfa459e5b2870bf4f307292e490a070))
+* **YouTube - Translations:** Update `Chinese Simplified` ([#471](https://github.com/anddea/revanced-patches/issues/471)) ([eb2fe8e](https://github.com/anddea/revanced-patches/commit/eb2fe8ec894ec6d0397ad06bbe7ad71f554dafcd))
+* **YouTube - Translations:** Update `Japanese` ([#467](https://github.com/anddea/revanced-patches/issues/467)) ([860073b](https://github.com/anddea/revanced-patches/commit/860073b48384dfcbedaf8de7e4f36261fa3e436f))
+* **YouTube - Translations:** Update `Korean` ([#464](https://github.com/anddea/revanced-patches/issues/464)) ([0770f09](https://github.com/anddea/revanced-patches/commit/0770f0944be9cc6bf26cd1218e056dade2990b83))
+* **YouTube Music - Player components:** Add `Hide audio video switch toggle` setting ([9611f38](https://github.com/anddea/revanced-patches/commit/9611f38db290099f041eefe33896c423e1a1fecc))
 
-# [2.222.0-dev.7](https://github.com/anddea/revanced-patches/compare/v2.222.0-dev.6...v2.222.0-dev.7) (2024-03-21)
-
-
-### Bug Fixes
-
-* **YouTube - Translations:** Update translations info ([9babfd9](https://github.com/anddea/revanced-patches/commit/9babfd978e650742a52e5efa4d4189656ff5fdd5))
-* **YouTube:** Adjusting patches to apply correctly to earlier versions. ([#94](https://github.com/anddea/revanced-patches/issues/94)) ([cb02ba7](https://github.com/anddea/revanced-patches/commit/cb02ba71f5af061a17183540537966e9ccef9332))
+# [2.225.0-dev.11](https://github.com/anddea/revanced-patches/compare/v2.225.0-dev.10...v2.225.0-dev.11) (2024-05-14)
 
 
 ### Features
 
-* **YouTube - Hide layout components:** Add `Subscriptions` tab and `Comments` to `Keyword filter` ([bbc3217](https://github.com/anddea/revanced-patches/commit/bbc32170b6bf2d94f43ad4782fe27960fa4caf53))
-* **YouTube - Speed overlay:** Change the speed overlay icon and fix patch for applying to earlier versions ([#92](https://github.com/anddea/revanced-patches/issues/92)) ([d547cda](https://github.com/anddea/revanced-patches/commit/d547cda236fc6d97387e5e6422b3a3a787046a2c))
-* **YouTube - Translations:** Update `Japanese` ([#89](https://github.com/anddea/revanced-patches/issues/89)) ([f8b40f8](https://github.com/anddea/revanced-patches/commit/f8b40f81bdac3c1bd7e3d3fee94864b0da7656fd))
-* **YouTube - Translations:** Update `Russian` ([#95](https://github.com/anddea/revanced-patches/issues/95)) ([a00a7b6](https://github.com/anddea/revanced-patches/commit/a00a7b6646c0f75968d683dc224e437debbc1c8d))
-* **YouTube:** Bump support version `19.09.38` - `19.10.39` ([#96](https://github.com/anddea/revanced-patches/issues/96)) ([bd7cb77](https://github.com/anddea/revanced-patches/commit/bd7cb771d0529436b690428316ae89517a6ef435))
+* **YouTube - Translations:** Add compile time option to select custom language file ([a65679e](https://github.com/anddea/revanced-patches/commit/a65679e2c345065b7fa96fa62f0901085cd3472d))
+* **YouTube - Translations:** Add compile time option to select languages ([046a05e](https://github.com/anddea/revanced-patches/commit/046a05e5697b8a7f531e709803e9cb5709e5bbc3))
+* **YouTube - Translations:** Update `Greek` ([#374](https://github.com/anddea/revanced-patches/issues/374)) ([5af0858](https://github.com/anddea/revanced-patches/commit/5af085861592182d23cfe5a451a41a5b70e9f908))
+* **YouTube - Translations:** Update `Japanese` ([#457](https://github.com/anddea/revanced-patches/issues/457)) ([b993a5d](https://github.com/anddea/revanced-patches/commit/b993a5dc39380bb54e1b1dcac76cb94a2fa58394))
+* **YouTube - Translations:** Update `Spanish` ([#436](https://github.com/anddea/revanced-patches/issues/436)) ([6e384d3](https://github.com/anddea/revanced-patches/commit/6e384d39ea8472b8f103045bb93f7e7bba80c668))
+* **YouTube - Translations:** Update `Ukrainian` ([#400](https://github.com/anddea/revanced-patches/issues/400)) ([67c2895](https://github.com/anddea/revanced-patches/commit/67c289576459971d004e1cbb2d2b773918895d73))
+* **YouTube - VIsual preferences icons:** Add icons to `Player buttons` ([a07b8ec](https://github.com/anddea/revanced-patches/commit/a07b8ecd1184cc54d5c8bb0ae316496e62b27a42))
 
-# [2.222.0-dev.6](https://github.com/anddea/revanced-patches/compare/v2.222.0-dev.5...v2.222.0-dev.6) (2024-03-19)
-
-
-### Bug Fixes
-
-* **YouTube - Change player flyout panel toggles:** Fix for supported versions ([a9fe961](https://github.com/anddea/revanced-patches/commit/a9fe961d9c8a9bce66c2c42e37a55a592411b516))
-* **YouTube - Translations:** Update translations info ([56ad720](https://github.com/anddea/revanced-patches/commit/56ad7205e68ea875a0bef99312d99d1a8d4a2834))
+# [2.225.0-dev.10](https://github.com/anddea/revanced-patches/compare/v2.225.0-dev.9...v2.225.0-dev.10) (2024-05-12)
 
 
 ### Features
 
-* **YouTube - Translations:** Update `Korean` ([8b11f6a](https://github.com/anddea/revanced-patches/commit/8b11f6a698100b1e1d6ef83b0e6eccb36470ba35))
-
-# [2.222.0-dev.5](https://github.com/anddea/revanced-patches/compare/v2.222.0-dev.4...v2.222.0-dev.5) (2024-03-19)
-
-
-### Bug Fixes
-
-* **YouTube - Translations:** Update translations info ([17a514e](https://github.com/anddea/revanced-patches/commit/17a514ea90d921a269e957ab3cca1da5b742c26f))
-
-
-### Features
-
-* **YouTube - Translations:** Update `Brazillian Portuguese` ([#85](https://github.com/anddea/revanced-patches/issues/85)) ([12ee1e1](https://github.com/anddea/revanced-patches/commit/12ee1e18f03351e551f68c5e0099f7f73208a85e))
-
-# [2.222.0-dev.4](https://github.com/anddea/revanced-patches/compare/v2.222.0-dev.3...v2.222.0-dev.4) (2024-03-18)
-
-
-### Features
-
-* **YouTube - Translations:** Update `Ukrainian` ([ac81500](https://github.com/anddea/revanced-patches/commit/ac81500024cc0794cc52dc5c1da5367aeff45764))
-
-# [2.222.0-dev.3](https://github.com/anddea/revanced-patches/compare/v2.222.0-dev.2...v2.222.0-dev.3) (2024-03-18)
-
-
-### Bug Fixes
-
-* **YouTube - Translations:** Update translations info ([c30c031](https://github.com/anddea/revanced-patches/commit/c30c031efea8cf27fae23ad77c45fc4c278f7a94))
-
-
-### Features
-
-* **YouTube - Translations:** Update `Japanese` ([#81](https://github.com/anddea/revanced-patches/issues/81)) ([5191bbe](https://github.com/anddea/revanced-patches/commit/5191bbe6777e11b1d823cdeb004423583259a9e2))
-* **YouTube - Translations:** Update `Spanish` ([#79](https://github.com/anddea/revanced-patches/issues/79)) ([1c3731d](https://github.com/anddea/revanced-patches/commit/1c3731dc8c38b9233fb5fdca804560ff30c15c8b))
-
-# [2.222.0-dev.2](https://github.com/anddea/revanced-patches/compare/v2.222.0-dev.1...v2.222.0-dev.2) (2024-03-18)
-
-
-### Bug Fixes
-
-* **YouTube - Swipe controls:** Fix some strings ([074e3e4](https://github.com/anddea/revanced-patches/commit/074e3e419731c075ca9bffa73f43a256316c3684))
-* **YouTube/YT Music - Debugging:** Disable by default ([241b6dd](https://github.com/anddea/revanced-patches/commit/241b6dd8c53ee0bbbceaea363851933d11441be6))
-
-# [2.222.0-dev.1](https://github.com/anddea/revanced-patches/compare/v2.221.1...v2.222.0-dev.1) (2024-03-17)
-
-
-### Features
-
-* **YouTube - Translation:** Update `Italian` ([#73](https://github.com/anddea/revanced-patches/issues/73)) ([ee9f012](https://github.com/anddea/revanced-patches/commit/ee9f012e180acfd7d3ffedee37e3b73b2743295a)), closes [#71](https://github.com/anddea/revanced-patches/issues/71)
+* Refactor and match ReVanced and inotia ([5b4dca0](https://github.com/anddea/revanced-patches/commit/5b4dca03970f887f6caaf3da072ff77276754a61))
+* **YouTube - Visual preferences icons:** Added more icons ([9dd62ce](https://github.com/anddea/revanced-patches/commit/9dd62ceacaeca8ab1b0b7c7c221e2cebc19a563f))
